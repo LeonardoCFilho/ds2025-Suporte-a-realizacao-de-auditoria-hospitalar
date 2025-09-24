@@ -3,6 +3,7 @@
 ## ESCOPO DO PROJETO
 
 ### 1. Introdução
+
 O serviço de saúde enfrenta desafios relacionados à realização de exames, procedimentos e internações sem real necessidade clínica, seja por pressões dos pacientes ou interesses financeiros de profissionais e instituições, gerando aumento dos custos assistenciais e riscos à saúde, como infecções hospitalares.
 
 A auditoria hospitalar é essencial para garantir a qualidade da assistência, o uso racional dos recursos e a integridade do paciente. O projeto visa desenvolver um sistema de software para apoiar a auditoria, com foco nos modelos concorrente e retrospectiva (intra).
@@ -14,6 +15,7 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 ### 2. Escopo Funcional
 
 #### 2.1 Auditoria Concorrente
+
 - **Monitoramento em tempo real** de pacientes internados (UTI, enfermaria, apartamentos)
 - **Sistema de alertas** para identificar internações que excedem o tempo necessário
 - **Interface para auditores** verificarem a necessidade de continuidade da internação
@@ -22,6 +24,7 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 - **Relatórios de internações prolongadas** com justificativas médicas
 
 #### 2.2 Auditoria Retrospectiva
+
 - **Sistema de análise de contas médicas** após o atendimento
 - **Módulo de validação de procedimentos** realizados versus patologia
 - **Funcionalidade de glosa automática** para itens em excesso ou desnecessários
@@ -30,14 +33,15 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 - **Sistema de aprovação/rejeição** de itens da conta hospitalar
 
 #### 2.3 Funcionalidades Gerais
+
 - **Controle de custos** por procedimento e paciente
 - **Histórico de auditorias** realizadas
 - **Integração com sistemas hospitalares** para coleta de dados
-- **Relatórios gerenciais** de custos e sinistralidade
 - **Módulo de configuração** de parâmetros de auditoria
 - **Sistema de notificações** para equipes médicas e administrativa
 
-### 3. Escopo Não Funcional 
+### 3. Escopo Não Funcional
+
 - **Sistema web responsivo** acessível em diferentes dispositivos.
 - **Interface intuitiva** para diferentes perfis de usuários (auditores, médicos, gestores).
 - **Segurança de dados** conforme LGPD e regulamentações de saúde.
@@ -45,6 +49,7 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 - **Armazenamento seguro e confiável** de histórico de auditorias e relatórios.
 
 ### 4. Controles Éticos e de Qualidade
+
 - **Identificação de procedimentos desnecessários** ou duplicados
 - **Monitoramento de tempo ideal** de internação por patologia
 - **Alertas de risco** para infecções hospitalares por permanência prolongada
@@ -53,36 +58,43 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 ### 5. NÃO ESCOPO
 
 #### 5.1 Funcionalidades Médicas
+
 - **Não inclui** diagnósticos médicos ou recomendações clínicas
 - **Não substitui** a avaliação médica profissional
 - **Não realiza** prescrições ou alterações em tratamentos
 - **Não interfere** diretamente nas decisões médicas
 
 #### 5.2 Sistemas Externos
+
 - **Não inclui** desenvolvimento de prontuário eletrônico
 - **Não contempla** sistema de agendamento de consultas
 - **Não abrange** controle de estoque hospitalar completo
 - **Não inclui** sistema financeiro/faturamento completo
 
 #### 5.3 Aspectos Operacionais
+
 - **Não contempla** treinamento de auditores
 - **Não inclui** definição de protocolos médicos
 - **Não abrange** gestão de recursos humanos
 - **Não contempla** manutenção de equipamentos hospitalares
 
 #### 5.4 Integrações Complexas
+
 - **Não inclui** integração com sistemas de outras operadoras
 - **Não contempla** interface com órgãos reguladores (ANS)
 - **Não abrange** sistema de teleconsulta ou telemedicina
 - **Não inclui** módulos de pesquisa científica
 
 ## PREMISSAS
+
 - Integração via API com sistemas hospitalares existentes
 - Banco de dados com informações de procedimentos padrão por patologia
-- Conformidade com LGPD e regulamentações de saúde
+- Conformidade com LGPD
+- Conformidade com regulamentações da ANVISA aplicáveis a processos hospitalares e segurança do paciente
 - Sistema web responsivo para acesso em diferentes dispositivos
 
 ### 6. RESTRIÇÕES
+
 - Dependência de dados precisos dos sistemas hospitalares
 - Necessidade de parametrização inicial dos padrões de procedimentos
 - Limitação às auditorias concorrente e intra (não preventiva)
