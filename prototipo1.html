@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Auditoria Hospitalar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .sidebar {
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            background-color: #343a40;
+            color: white;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #adb5bd;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #495057;
+            color: white;
+        }
+        .main-content {
+            margin-left: 260px;
+            padding: 20px;
+        }
+        .card-header {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h3 class="text-center mb-4">AuditSys</h3>
+        <a href="#auditoria-concorrente"><i class="fas fa-search-plus"></i> Auditoria Concorrente</a>
+        <a href="#auditoria-retrospectiva"><i class="fas fa-history"></i> Auditoria Retrospectiva</a>
+        <a href="#funcionalidades-gerais"><i class="fas fa-cogs"></i> Funcionalidades Gerais</a>
+        <a href="#relatorios"><i class="fas fa-chart-line"></i> Relatórios Gerenciais</a>
+        <a href="#configuracoes"><i class="fas fa-sliders-h"></i> Configurações</a>
+    </div>
+
+    <div class="main-content">
+        <header class="d-flex justify-content-between align-items-center mb-4">
+            <h1>Dashboard Principal</h1>
+            <div>
+                <span class="me-3">Bem-vindo, Auditor(a)</span>
+                <button class="btn btn-outline-danger"><i class="fas fa-sign-out-alt"></i> Sair</button>
+            </div>
+        </header>
+
+        <section id="auditoria-concorrente" class="mb-5">
+            <h2><i class="fas fa-search-plus"></i> 2.1 Auditoria Concorrente</h2>
+            <hr>
+
+            <div class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    Dashboard de Acompanhamento do Tempo de Permanência
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card text-white bg-success mb-3">
+                                <div class="card-header">Paciente: João da Silva (Leito 101-A)</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Tempo de Internação: 3 dias</h5>
+                                    <p class="card-text">Patologia: Apendicite Aguda</p>
+                                    <p class="card-text">Previsão de Alta: 2 dias</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card text-white bg-danger mb-3">
+                                <div class="card-header">Paciente: Maria Oliveira (UTI-02)</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Tempo de Internação: 12 dias</h5>
+                                    <p class="card-text">Patologia: Pneumonia Grave</p>
+                                    <p class="card-text">Permanência excedeu o previsto em 5 dias!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card text-white bg-warning mb-3">
+                                <div class="card-header">Paciente: Carlos Pereira (Apto 205)</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Tempo de Internação: 7 dias</h5>
+                                    <p class="card-text">Patologia: Fratura de Fêmur</p>
+                                    <p class="card-text">Aguardando parecer de ortopedia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    Monitoramento em Tempo Real de Pacientes Internados
+                </div>
+                <div class="card-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Paciente</th>
+                                <th>Leito</th>
+                                <th>Setor</th>
+                                <th>Dias Internado</th>
+                                <th>Status</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>João da Silva</td>
+                                <td>101-A</td>
+                                <td>Enfermaria</td>
+                                <td>3</td>
+                                <td><span class="badge bg-success">No Prazo</span></td>
+                                <td><button class="btn btn-sm btn-primary">Verificar Continuidade</button></td>
+                            </tr>
+                            <tr>
+                                <td>Maria Oliveira</td>
+                                <td>UTI-02</td>
+                                <td>UTI</td>
+                                <td>12</td>
+                                <td><span class="badge bg-danger">Permanência Prolongada</span></td>
+                                <td><button class="btn btn-sm btn-primary">Verificar Continuidade</button></td>
+                            </tr>
+                            <tr>
+                                <td>Carlos Pereira</td>
+                                <td>205</td>
+                                <td>Apartamento</td>
+                                <td>7</td>
+                                <td><span class="badge bg-warning">Atenção</span></td>
+                                <td><button class="btn btn-sm btn-primary">Verificar Continuidade</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header">Módulo de Controle de Altas</div>
+                <div class="card-body">
+                    <p>Interface para evitar esquecimentos da equipe médica sobre altas programadas.</p>
+                    </div>
+            </div>
+        </section>
+
+        <section id="auditoria-retrospectiva" class="mb-5">
+            <h2><i class="fas fa-history"></i> 2.2 Auditoria Retrospectiva</h2>
+            <hr>
+            <div class="card">
+                <div class="card-header">Análise de Contas Médicas</div>
+                <div class="card-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="numeroConta" class="form-label">Número da Conta/Atendimento</label>
+                                <input type="text" class="form-control" id="numeroConta">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="nomePaciente" class="form-label">Nome do Paciente</label>
+                                <input type="text" class="form-control" id="nomePaciente">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Buscar Conta</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header">Interface de Conferência de Materiais e Medicamentos</div>
+                <div class="card-body">
+                    <h4>Conta: 2025-09876 | Paciente: Ana Paula Souza</h4>
+                    <p><strong>Patologia:</strong> Infarto Agudo do Miocárdio</p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Quantidade</th>
+                                <th>Validação (Patologia)</th>
+                                <th>Status</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cateter ABC (Unidade)</td>
+                                <td>1</td>
+                                <td><span class="badge bg-success">Padrão</span></td>
+                                <td>Aprovado</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Antibiótico XYZ (Frasco)</td>
+                                <td>15</td>
+                                <td><span class="badge bg-danger">Fora do Padrão</span></td>
+                                <td>Pendente</td>
+                                <td>
+                                    <button class="btn btn-sm btn-success">Aprovar</button>
+                                    <button class="btn btn-sm btn-danger">Glosar</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="alert alert-warning" role="alert">
+                        <strong>Glosa Automática:</strong> 2 unidades de 'Luva Cirúrgica Estéril' glosadas por excesso de acordo com o procedimento padrão.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="funcionalidades-gerais" class="mb-5">
+            <h2><i class="fas fa-cogs"></i> 2.3 Funcionalidades Gerais</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Controle de Custos</h5>
+                            <p class="card-text">Acompanhe os custos por procedimento e paciente.</p>
+                            <a href="#" class="btn btn-secondary">Acessar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Histórico de Auditorias</h5>
+                            <p class="card-text">Consulte todas as auditorias realizadas no sistema.</p>
+                            <a href="#" class="btn btn-secondary">Acessar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="relatorios" class="mb-5">
+            <h2><i class="fas fa-chart-line"></i> Relatórios Gerenciais</h2>
+            <hr>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">Relatório de Internações Prolongadas</a>
+              <a href="#" class="list-group-item list-group-item-action">Relatório de Custos por Patologia</a>
+              <a href="#" class="list-group-item list-group-item-action">Relatório de Sinistralidade Mensal</a>
+              <a href="#" class="list-group-item list-group-item-action">Relatório de Glosas por Setor</a>
+            </div>
+        </section>
+        
+        <section id="configuracoes" class="mb-5">
+            <h2><i class="fas fa-sliders-h"></i> Módulo de Configuração</h2>
+            <hr>
+            <div class="card">
+                <div class="card-header">Parâmetros de Auditoria</div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="tempoMax" class="form-label">Tempo Máximo de Internação (Padrão)</label>
+                            <input type="number" class="form-control" id="tempoMax" value="10">
+                        </div>
+                         <div class="mb-3">
+                            <label for="notificacao" class="form-label">Notificar Equipe Médica (dias antes do prazo)</label>
+                            <input type="number" class="form-control" id="notificacao" value="2">
+                        </div>
+                        <button type="submit" class="btn btn-success">Salvar Configurações</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="text-center mt-5">
+            <p>Sistema de Auditoria Hospitalar &copy; 2025</p>
+            <p><a href="#" data-bs-toggle="modal" data-bs-target="#infoModal">Escopo, Premissas e Restrições do Sistema</a></p>
+        </footer>
+    </div>
+    
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="infoModalLabel">Informações do Sistema</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+                <h4>3. Escopo Não Funcional</h4>
+                <ul>
+                    <li><strong>Sistema web responsivo:</strong> Acessível em diferentes dispositivos.</li>
+                    <li><strong>Interface intuitiva:</strong> Para diferentes perfis de usuários (auditores, médicos, gestores).</li>
+                    <li><strong>Segurança de dados:</strong> Conforme LGPD e regulamentações de saúde.</li>
+                    <li><strong>Performance:</strong> Para acompanhamento em tempo real durante auditorias concorrentes.</li>
+                    <li><strong>Armazenamento seguro e confiável:</strong> De histórico de auditorias e relatórios.</li>
+                </ul>
+                <hr>
+                <h4>4. Controles Éticos e de Qualidade</h4>
+                <ul>
+                    <li>Identificação de procedimentos desnecessários ou duplicados.</li>
+                    <li>Monitoramento de tempo ideal de internação por patologia.</li>
+                    <li>Alertas de risco para infecções hospitalares por permanência prolongada.</li>
+                    <li>Validação cruzada de exames solicitados versus necessidade clínica.</li>
+                </ul>
+                <hr>
+                <h4>5. NÃO ESCOPO</h4>
+                <p><strong>Funcionalidades Médicas:</strong> Não inclui diagnósticos, recomendações clínicas, prescrições ou interfere em decisões médicas.</p>
+                <p><strong>Sistemas Externos:</strong> Não inclui desenvolvimento de prontuário eletrônico, agendamento de consultas, controle de estoque completo ou sistema financeiro completo.</p>
+                <p><strong>Aspectos Operacionais:</strong> Não contempla treinamento de auditores, definição de protocolos médicos, gestão de RH ou manutenção de equipamentos.</p>
+                <p><strong>Integrações Complexas:</strong> Não inclui integração com sistemas de outras operadoras, interface com a ANS, teleconsulta ou módulos de pesquisa científica.</p>
+                <hr>
+                <h4>PREMISSAS E RESTRIÇÕES</h4>
+                <p><strong>Premissas:</strong> Integração via API com sistemas hospitalares existentes; Banco de dados com informações de procedimentos padrão; Conformidade com LGPD; Sistema web responsivo.</p>
+                <p><strong>Restrições:</strong> Dependência de dados precisos dos sistemas hospitalares; Necessidade de parametrização inicial; Foco em auditorias concorrente e retrospectiva (não preventiva); Foco em operadoras de planos de saúde e hospitais privados.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
