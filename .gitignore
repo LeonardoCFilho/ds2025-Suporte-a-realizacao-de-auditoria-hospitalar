@@ -1,0 +1,3 @@
+# Ignorar instancias antigas ou backup
+**/OLD*
+**/*.backup
