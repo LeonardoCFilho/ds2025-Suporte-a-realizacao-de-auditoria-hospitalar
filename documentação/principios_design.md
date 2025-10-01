@@ -105,7 +105,7 @@ Diferentes algoritmos de validação por patologia. -->
 
 ### Observer Pattern
 
-Sistema de notificações e alertas (HU02, HU17).
+Sistema de notificações e alertas (HU02, HU15).
 
 <!-- ### Factory Pattern
 
@@ -130,3 +130,8 @@ Criação de diferentes tipos de relatórios. -->
 - LGPD: criptografia de dados sensíveis
 - Backup automático regular
 - Controle de acesso por permissões
+
+### Testabilidade
+
+- Interfaces para permitir mocks.
+- Testes de unidade e integração orientados a regras de negócio.
