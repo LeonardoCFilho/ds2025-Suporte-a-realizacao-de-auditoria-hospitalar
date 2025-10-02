@@ -1,0 +1,34 @@
+@startuml 2.diagrama_container
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(auditor, "Auditor", "Audita internações e procedimentos")
+Person(medico, "Médico", "Recebe alertas e acompanha pacientes")
+Person(gestor, "Gestor Hospitalar", "Consulta relatórios e dashboards")
+Person(aluno, "Aluno", "Acompanha casos clínicos e estudos de auditoria")
+
+System_Boundary(sistema, "Sistema de Auditoria Hospitalar") {
+  Container(webApp, "Aplicação Web", "React.js ou Vue.js", "Interface para auditores, médicos, gestores e alunos")
+  Container(apiBackend, "API Backend", "Python (Django/Flask)", "Orquestra lógica de auditoria, integrações e análise de dados com Pandas/Scikit-learn")
+  Container(db, "Banco de Dados", "PostgreSQL", "Armazena auditorias, contas médicas e padrões por patologia")
+  Container(motorGlosa, "Motor de Glosa", "Python", "Valida procedimentos e aplica glosas automáticas")
+  Container(servicoNotificacao, "Serviço de Notificações", "Django Channels/WebSockets", "Envia alertas em tempo real")
+  Container(baseConhecimento, "Base de Conhecimento", "NoSQL", "Padrões de procedimentos por patologia")
+  Container(infraestrutura, "Infraestrutura", "Docker/Kubernetes + Cloud", "Ambiente escalável e orquestrado em AWS, GCP ou Azure")
+}
+
+System_Ext(sistemaHospitalar, "Sistema Hospitalar", "Sistema legado com dados clínicos")
+
+Rel(auditor, webApp, "Audita internações e procedimentos")
+Rel(medico, webApp, "Recebe alertas e acompanha pacientes")
+Rel(gestor, webApp, "Consulta relatórios e dashboards")
+Rel(aluno, webApp, "Consulta casos clínicos e estudos")
+
+Rel(webApp, apiBackend, "Faz requisições REST")
+Rel(apiBackend, db, "Lê e grava dados")
+Rel(apiBackend, motorGlosa, "Valida procedimentos")
+Rel(apiBackend, servicoNotificacao, "Dispara alertas")
+Rel(apiBackend, baseConhecimento, "Consulta padrões por patologia")
+Rel(apiBackend, sistemaHospitalar, "Integra via API")
+Rel(apiBackend, infraestrutura, "Executa em ambiente containerizado e escalável")
+
+@enduml

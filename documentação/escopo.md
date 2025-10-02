@@ -12,6 +12,10 @@ A auditoria concorrente acompanha em tempo real procedimentos, tempo de interna�
 
 O projeto visa desenvolver um sistema de software que integra os dois modelos de auditoria — concorrente e retrospectiva — em uma única plataforma, permitindo o acompanhamento em tempo real das internações, a revisão criteriosa dos procedimentos e a gestão eficiente dos recursos hospitalares. O sistema tem como objetivo garantir uma assistência médica ética e segura, reduzir custos desnecessários e aumentar a transparência nos processos hospitalares, facilitando a identificação de excessos, a otimização do uso de exames e materiais e a preservação da saúde do paciente ao longo de toda a internação.
 
+#### Diagrama de contexto
+
+https://github.com/LeonardoCFilho/ds2025-Suporte-a-realizacao-de-auditoria-hospitalar/tree/main/documentação/diagramas/1.diagrama_contexto.png?raw=true
+
 ### 2. Escopo Funcional
 
 #### 2.1 Auditoria Concorrente
@@ -39,6 +43,10 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 - **Integração com sistemas hospitalares** para coleta de dados
 - **Módulo de configuração** de parâmetros de auditoria
 - **Sistema de notificações** para equipes médicas e administrativa
+
+#### Diagrama de container
+
+https://github.com/LeonardoCFilho/ds2025-Suporte-a-realizacao-de-auditoria-hospitalar/tree/main/documentação/diagramas/2.diagrama_container.png?raw=true
 
 ### 3. Escopo Não Funcional
 

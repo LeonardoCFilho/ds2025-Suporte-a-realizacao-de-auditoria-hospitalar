@@ -1,0 +1,18 @@
+@startuml 1.diagrama_contexto
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+Person(paciente, "Paciente", "Recebe atendimento hospitalar")
+Person(medico, "Médico", "Realiza procedimentos e solicita exames")
+Person(auditor, "Auditor", "Audita internações e procedimentos")
+Person(gestor, "Gestor Hospitalar", "Acompanha indicadores e relatórios")
+System(sistema, "Sistema de Auditoria Hospitalar", "Plataforma para auditoria concorrente e retrospectiva")
+
+System_Ext(sistemaHospitalar, "Sistema Hospitalar", "Sistema legado com dados clínicos e administrativos")
+
+Rel(paciente, sistema, "É monitorado durante a internação")
+Rel(medico, sistema, "Recebe alertas e notificações")
+Rel(auditor, sistema, "Audita em tempo real e retrospectivamente")
+Rel(gestor, sistema, "Consulta relatórios e dashboards")
+Rel(sistema, sistemaHospitalar, "Integra via API para obter dados clínicos")
+
+@enduml
