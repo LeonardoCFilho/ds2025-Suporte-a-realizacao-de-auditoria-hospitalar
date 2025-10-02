@@ -14,7 +14,7 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 
 #### Diagrama de contexto
 
-![Diagrama de Contexto](https://github.com/LeonardoCFilho/ds2025-Suporte-a-realizacao-de-auditoria-hospitalar/tree/main/documentação/diagramas/1.diagrama_contexto.png)
+![alt text](https://github.com/LeonardoCFilho/ds2025-Suporte-a-realizacao-de-auditoria-hospitalar/blob/main/documentação/diagramas/1.diagrama_contexto.png)
 
 ### 2. Escopo Funcional
 
@@ -46,7 +46,7 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 
 #### Diagrama de container
 
-![Diagrama de Containers](https://github.com/LeonardoCFilho/ds2025-Suporte-a-realizacao-de-auditoria-hospitalar/tree/main/documentação/diagramas/2.diagrama_container.png)
+![alt text](https://github.com/LeonardoCFilho/ds2025-Suporte-a-realizacao-de-auditoria-hospitalar/blob/main/documentação/diagramas/2.diagrama_container.png)
 
 ### 3. Escopo Não Funcional
 
