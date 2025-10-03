@@ -4,7 +4,6 @@
 Person(auditor, "Auditor", "Audita internações e procedimentos")
 Person(medico, "Médico", "Recebe alertas e acompanha pacientes")
 Person(gestor, "Gestor Hospitalar", "Consulta relatórios e dashboards")
-Person(aluno, "Aluno", "Acompanha casos clínicos e estudos de auditoria")
 
 System_Boundary(sistema, "Sistema de Auditoria Hospitalar") {
   Container(webApp, "Aplicação Web", "React.js ou Vue.js", "Interface para auditores, médicos, gestores e alunos")
@@ -21,7 +20,6 @@ System_Ext(sistemaHospitalar, "Sistema Hospitalar", "Sistema legado com dados cl
 Rel(auditor, webApp, "Audita internações e procedimentos")
 Rel(medico, webApp, "Recebe alertas e acompanha pacientes")
 Rel(gestor, webApp, "Consulta relatórios e dashboards")
-Rel(aluno, webApp, "Consulta casos clínicos e estudos")
 
 Rel(webApp, apiBackend, "Faz requisições REST")
 Rel(apiBackend, db, "Lê e grava dados")
