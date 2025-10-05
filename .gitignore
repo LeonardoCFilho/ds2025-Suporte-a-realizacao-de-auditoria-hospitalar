@@ -1,3 +1,8 @@
 # Ignorar instancias antigas ou backup
 **/OLD*
 **/*.backup
+
+# Arquivos do prototipo
+**/venv/
+**/db.sqlite3
+**/__pycache__/
