@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}Controle de Altas{% endblock %}
+
+{% block content %}
+<h2>Controle de Altas</h2>
+<p class="text-muted">Pacientes que excederam o tempo ideal de internação</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Paciente</th>
+            <th>Patologia</th>
+            <th>Setor</th>
+            <th>Dias Internado</th>
+            <th>Tempo Ideal</th>
+            <th>Excesso</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for internacao in prontas_alta %}
+        <tr>
+            <td>{{ internacao.paciente.nome }}</td>
+            <td>{{ internacao.patologia.nome }}</td>
+            <td>{{ internacao.setor }}</td>
+            <td>{{ internacao.tempo_permanencia }}</td>
+            <td>{{ internacao.patologia.tempo_internacao_ideal }}</td>
+            <td class="text-danger">
+                <strong>+{{ internacao.dias_excesso }} dias</strong>
+            </td>
+            <td>
+                <a href="{% url 'auditoria:efetivar_alta' internacao.id %}" class="btn btn-sm btn-success">Efetivar Alta</a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="7" class="text-center">Nenhum paciente pendente de alta</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

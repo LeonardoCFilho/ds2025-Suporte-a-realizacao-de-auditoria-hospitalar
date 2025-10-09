@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Efetivar Alta{% endblock %}
+
+{% block content %}
+<h2>Efetivar Alta</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5>Paciente: {{ internacao.paciente.nome }}</h5>
+        <p><strong>Patologia:</strong> {{ internacao.patologia.nome }}</p>
+        <p><strong>Data de Entrada:</strong> {{ internacao.data_entrada|date:"d/m/Y H:i" }}</p>
+        <p><strong>Tempo de Permanência:</strong> {{ internacao.tempo_permanencia }} dias</p>
+        
+        <form method="post">
+            {% csrf_token %}
+            <p class="text-warning">Tem certeza que deseja efetivar a alta deste paciente?</p>
+            <button type="submit" class="btn btn-success">Confirmar Alta</button>
+            <a href="{% url 'auditoria:controle_altas' %}" class="btn btn-secondary">Cancelar</a>
+        </form>
+    </div>
+</div>
+{% endblock %}

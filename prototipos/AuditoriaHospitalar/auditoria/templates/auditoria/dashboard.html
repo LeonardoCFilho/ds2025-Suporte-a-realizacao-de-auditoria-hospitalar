@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard - Auditoria Hospitalar{% endblock %}
+
+{% block content %}
+<h2>Dashboard de Auditoria</h2>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Internações Ativas</h5>
+                <h2>{{ total_internacoes }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-warning mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Alertas Ativos</h5>
+                <h2>{{ total_alertas }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Auditorias Hoje</h5>
+                <h2>0</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h4>Internações por Setor</h4>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Setor</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for setor in por_setor %}
+                <tr>
+                    <td>{{ setor.setor }}</td>
+                    <td>{{ setor.total }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-6">
+        <h4>Últimas Internações</h4>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Paciente</th>
+                    <th>Setor</th>
+                    <th>Dias</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for internacao in internacoes_ativas|slice:":5" %}
+                <tr>
+                    <td>{{ internacao.paciente.nome }}</td>
+                    <td>{{ internacao.setor }}</td>
+                    <td>{{ internacao.tempo_permanencia }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

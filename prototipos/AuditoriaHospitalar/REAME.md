@@ -56,6 +56,16 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+#### Popular o BD (recomendado)
+
+Para popular o BD, com dados pré-definidos rode:
+
+```bash
+python manage.py popular_dados 
+```
+
+P.s.: `--limpar` pode ser concatenado ao final do comando para esvaziar o BD.
+
 ### 5. Executar o servidor de desenvolvimento
 
 Inicie o servidor local:

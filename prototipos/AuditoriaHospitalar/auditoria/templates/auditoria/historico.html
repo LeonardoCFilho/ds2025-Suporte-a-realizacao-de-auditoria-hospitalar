@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}Histórico de Auditorias{% endblock %}
+
+{% block content %}
+<h2>Histórico de Auditorias</h2>
+
+<div class="mb-3">
+    <form method="get" class="row g-3">
+        <div class="col-auto">
+            <input type="text" name="busca" class="form-control" placeholder="Buscar paciente..." value="{{ termo_busca }}">
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+    </form>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Tipo</th>
+            <th>Paciente</th>
+            <th>Auditor</th>
+            <th>Itens Glosados</th>
+            <th>Valor Glosado</th>
+            <th>Observações</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for auditoria in auditorias %}
+        <tr>
+            <td>{{ auditoria.data_auditoria|date:"d/m/Y H:i" }}</td>
+            <td>
+                <span class="badge bg-info">{{ auditoria.tipo }}</span>
+            </td>
+            <td>{{ auditoria.internacao.paciente.nome }}</td>
+            <td>{{ auditoria.auditor.username }}</td>
+            <td>{{ auditoria.itens_glosados }}</td>
+            <td class="text-danger">R$ {{ auditoria.valor_glosado|floatformat:2 }}</td>
+            <td>{{ auditoria.observacoes|truncatewords:10 }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="7" class="text-center">Nenhuma auditoria registrada</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

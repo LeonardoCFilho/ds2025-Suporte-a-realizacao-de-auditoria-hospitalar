@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block title %}Monitoramento em Tempo Real{% endblock %}
+
+{% block content %}
+<h2>Monitoramento de Pacientes Internados</h2>
+
+<div class="mb-3">
+    <form method="get" class="row g-3">
+        <div class="col-auto">
+            <select name="setor" class="form-select">
+                <option value="">Todos os setores</option>
+                {% for value, label in setores %}
+                <option value="{{ value }}" {% if setor_filtro == value %}selected{% endif %}>{{ label }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Filtrar</button>
+        </div>
+    </form>
+</div>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Paciente</th>
+            <th>Patologia</th>
+            <th>Setor</th>
+            <th>Data Entrada</th>
+            <th>Dias Internado</th>
+            <th>Tempo Ideal</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for internacao in internacoes %}
+        <tr class="{% if internacao.tem_alerta %}alerta-tempo{% endif %}">
+            <td>{{ internacao.paciente.nome }}</td>
+            <td>{{ internacao.patologia.nome }}</td>
+            <td><span class="badge bg-info">{{ internacao.setor }}</span></td>
+            <td>{{ internacao.data_entrada|date:"d/m/Y H:i" }}</td>
+            <td><strong>{{ internacao.tempo_permanencia }}</strong></td>
+            <td>{{ internacao.patologia.tempo_internacao_ideal }}</td>
+            <td>
+                {% if internacao.tem_alerta %}
+                <span class="badge bg-warning">⚠️ Alerta</span>
+                {% else %}
+                <span class="badge bg-success">Normal</span>
+                {% endif %}
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="7" class="text-center">Nenhuma internação ativa</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
