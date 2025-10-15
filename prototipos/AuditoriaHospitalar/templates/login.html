@@ -1,60 +1,254 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Auditoria Hospitalar</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Login Auditoria Hospitalar</title>
+    <!-- Link para a fonte Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
     <style>
+        /* Definições de estilo globais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
             min-height: 100vh;
+        }
+
+        /* Estilo do container que cobre a tela inteira (o fundo) */
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('{% static 'images/quadro-de-equipamento-de-laboratorio.png' %}');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* Estilo da div branca centralizada (o cartão de login) */
+        .login-card {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 40px; /* Padding de 40px */
+            border-radius: 40px; /* Border-radius de 40px */
+            width: 100%;
+            max-width: 450px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            /* Adicionado um pouco de responsividade */
+            margin: 20px; 
+        }
+
+        /* --- Estilos do Cabeçalho --- */
+        .login-header {
+            margin-bottom: 30px;
+        }
+        
+        /* Simulação de um logo/ícone mais profissional e texto */
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .logo-icon {
+            width: 30px;
+            height: 30px;
+            background: linear-gradient(45deg, #00c9ff 0%, #3e82b7 100%);
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
+            font-size: 18px;
+            color: white;
+            font-weight: 700;
         }
-        .login-card {
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-            padding: 40px;
-            max-width: 400px;
+        
+        .logo h1 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        /* --- Título Principal --- */
+        .welcome-text {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        /* --- Estilos do Formulário e Inputs --- */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #444;
+            font-size: 14px;
+        }
+
+        .form-control {
             width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .form-control:focus {
+            border-color: #00c9ff;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0, 201, 255, 0.2);
+        }
+
+        /* --- Mensagem de Erro --- */
+        .alert-danger {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* --- Estilos do Botão de Login --- */
+        .login-button {
+            width: 100%;
+            padding: 15px;
+            background-color: #00c9ff; /* Cor de destaque (Azul-claro/Ciano) */
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+            margin-top: 10px;
+        }
+
+        .login-button:hover {
+            background-color: #00b0e6;
+        }
+
+        .login-button:active {
+            transform: translateY(1px);
+        }
+        
+        /* --- Credenciais de Teste --- */
+        .text-muted {
+            color: #6c757d !important;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .divider {
+            border: 0;
+            border-top: 1px solid #eee;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        
+        @media (max-width: 500px) {
+            .login-card {
+                padding: 30px;
+                border-radius: 30px;
+            }
+            h2 {
+                font-size: 26px;
+            }
         }
     </style>
 </head>
+
 <body>
-    <div class="login-card">
-        <h2 class="text-center mb-4">🏥 Auditoria Hospitalar</h2>
-        
-        {% if form.errors %}
-        <div class="alert alert-danger">
-            Usuário ou senha incorretos.
-        </div>
-        {% endif %}
+    <!-- Container que cobre a tela inteira (fundo de laboratório) -->
+    <div class="container">
+        <!-- Div Branca Centralizada (Card de Login) -->
+        <div class="login-card">
+            
+            <!-- Cabeçalho (Logo) -->
+            <header class="login-header">
+                <div class="logo">
+                    <span class="logo-icon">🩺</span> <!-- Ícone simples para simular um logo hospitalar/médico -->
+                    <h1>Auditoria Hospitalar</h1>
+                </div>
+            </header>
 
-        <form method="post">
-            {% csrf_token %}
-            <div class="mb-3">
-                <label for="username" class="form-label">Usuário</label>
-                <input type="text" class="form-control" id="username" name="username" required autofocus>
-            </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="password" name="password" required>
-            </div>
-            <input type="hidden" name="next" value="{{ next }}">
-            <button type="submit" class="btn btn-primary w-100">Entrar</button>
-        </form>
+            <div class="login-content">
+                <h2>Login</h2>
 
-        <hr class="my-4">
-        
-        <div class="text-center">
-            <small class="text-muted">
-                <strong>Usuários de teste:</strong><br>
-                admin / admin123<br>
-                auditor / auditor123
-            </small>
+                <!-- Mensagem de Erro do Django (MANTIDA) -->
+                {% if form.errors %}
+                <div class="alert-danger">
+                    Usuário ou senha incorretos.
+                </div>
+                {% endif %}
+
+                <!-- Formulário de Login (MANTIDO) -->
+                <form method="post">
+                    {% csrf_token %}
+                    
+                    <!-- Campo Usuário -->
+                    <div class="form-group">
+                        <label for="username">Usuário</label>
+                        <input type="text" class="form-control" id="username" name="username" required autofocus>
+                    </div>
+
+                    <!-- Campo Senha -->
+                    <div class="form-group">
+                        <label for="password">Senha</label>
+                        <div class="password-input-wrapper">
+                            <input type="password" class="form-control" id="password" name="password" required>
+                            <!-- Removido o ícone de olho complexo para focar na funcionalidade base -->
+                        </div>
+                    </div>
+
+                    <!-- Campo hidden 'next' (MANTIDO) -->
+                    <input type="hidden" name="next" value="{{ next }}">
+                    
+                    <button type="submit" class="login-button">Entrar</button>
+                </form>
+            </div>
+
+            <!-- Divisor -->
+            <hr class="divider">
+            
+            <!-- Credenciais de Teste (MANTIDAS) -->
+            <div class="text-center">
+                <small class="text-muted">
+                    <strong>Usuários de teste:</strong><br>
+                    Admin: <span style="font-weight: 600;">admin</span> / <span style="font-weight: 600;">admin123</span><br>
+                    Auditor: <span style="font-weight: 600;">auditor</span> / <span style="font-weight: 600;">auditor123</span>
+                </small>
+            </div>
+
         </div>
     </div>
 </body>
