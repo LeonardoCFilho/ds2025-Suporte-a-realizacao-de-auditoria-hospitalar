@@ -14,7 +14,7 @@ Sistema de auditoria hospitalar desenvolvido em Django.
 
 ```bash
 git clone https://github.com/LeonardoCFilho/ds2025-Suporte-a-realizacao-de-auditoria-hospitalar.git
-cd ds2025-Suporte-a-realizacao-de-auditoria-hospitalar/prototipos/AuditoriaHospitalar
+cd ds2025-Suporte-a-realizacao-de-auditoria-hospitalar/DOC/AuditoriaHospitalar
 ```
 
 ### 2. Criar ambiente virtual
