@@ -1,6 +1,7 @@
 # Auditoria Hospitalar
 
 Sistema de auditoria hospitalar desenvolvido em Django.
+Versão: 1.0.0
 
 ## Requisitos
 
