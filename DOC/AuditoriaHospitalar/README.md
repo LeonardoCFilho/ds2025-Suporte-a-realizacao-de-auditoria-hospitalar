@@ -37,7 +37,7 @@ source venv/bin/activate
 **No Windows:**
 
 ```bash
-venv\Scripts\activate
+venv\Scripts\activate.bat
 ```
 
 ### 3. Instalar dependências
