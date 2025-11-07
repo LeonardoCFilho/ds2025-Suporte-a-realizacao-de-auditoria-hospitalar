@@ -3,21 +3,106 @@
 {% block title %}Efetivar Alta{% endblock %}
 
 {% block content %}
-<h2>Efetivar Alta</h2>
 
-<div class="card">
-    <div class="card-body">
-        <h5>Paciente: {{ internacao.paciente.nome }}</h5>
-        <p><strong>Patologia:</strong> {{ internacao.patologia.nome }}</p>
-        <p><strong>Data de Entrada:</strong> {{ internacao.data_entrada|date:"d/m/Y H:i" }}</p>
-        <p><strong>Tempo de Permanência:</strong> {{ internacao.tempo_permanencia }} dias</p>
-        
-        <form method="post">
-            {% csrf_token %}
-            <p class="text-warning">Tem certeza que deseja efetivar a alta deste paciente?</p>
-            <button type="submit" class="btn btn-success">Confirmar Alta</button>
-            <a href="{% url 'auditoria:controle_altas' %}" class="btn btn-secondary">Cancelar</a>
-        </form>
+<style>
+    .confirm-card {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        overflow: hidden;
+    }
+    .confirm-card .card-header {
+        background-color: #ffffff;
+        border-bottom: 1px solid #f0f0f0;
+        font-weight: 600;
+        color: #343a40;
+        padding: 1rem 1.25rem;
+    }
+    .confirm-card .card-title {
+        font-weight: 700;
+        color: #212529;
+    }
+    /* Estilo para os itens de detalhe */
+    .detail-item {
+        margin-bottom: 1rem;
+    }
+    .detail-item strong {
+        display: block; /* Coloca o rótulo em cima */
+        font-size: 0.85rem;
+        color: #6c757d; /* text-muted */
+        text-transform: uppercase;
+        margin-bottom: 0.25rem;
+    }
+    .detail-item span {
+        font-size: 1.1rem;
+    }
+</style>
+<h2 class="h3 mb-4" style="color: #495057;">
+    <i class="bi bi-box-arrow-right me-2"></i>
+    Efetivar Alta
+</h2>
+
+<div class="row">
+    <div class="col-lg-8 col-md-10">
+        <div class="card confirm-card">
+            
+            <div class="card-header">
+                <i class="bi bi-person-check-fill me-2"></i>
+                Confirmação de Alta
+            </div>
+
+            <div class="card-body p-4">
+                
+                <h4 class="card-title">{{ internacao.paciente.nome }}</h4>
+                <p class="text-muted">
+                    Paciente ID: {{ internacao.paciente.id }} | Internação ID: {{ internacao.id }}
+                </p>
+                
+                <hr class="my-3">
+
+                <div class="row">
+                    <div class="col-md-6 detail-item">
+                        <strong>
+                            <i class="bi bi-file-earmark-medical me-1"></i> Patologia
+                        </strong>
+                        <span>{{ internacao.patologia.nome }}</span>
+                    </div>
+                    <div class="col-md-6 detail-item">
+                        <strong>
+                            <i class="bi bi-calendar-plus me-1"></i> Data de Entrada
+                        </strong>
+                        <span>{{ internacao.data_entrada|date:"d/m/Y H:i" }}</span>
+                    </div>
+                    <div class="col-md-6 detail-item">
+                        <strong>
+                            <i class="bi bi-hourglass-split me-1"></i> Tempo de Permanência
+                        </strong>
+                        <span>{{ internacao.tempo_permanencia }} dias</span>
+                    </div>
+                </div>
+
+                <form method="post" class="mt-3">
+                    {% csrf_token %}
+                    
+                    <div class="alert alert-warning" role="alert">
+                        <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                        <strong>Atenção:</strong> Tem certeza que deseja efetivar a alta deste paciente?
+                    </div>
+                    
+                    <div class="text-end mt-4">
+                        <a href="{% url 'auditoria:controle_altas' %}" class="btn btn-secondary me-2">
+                            <i class="bi bi-x-circle me-1"></i>
+                            Cancelar
+                        </a>
+                        <button type="submit" class="btn btn-success">
+                            <i class="bi bi-check-circle-fill me-1"></i>
+                            Confirmar Alta
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 {% endblock %}

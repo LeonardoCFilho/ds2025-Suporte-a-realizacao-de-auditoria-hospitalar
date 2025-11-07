@@ -3,75 +3,220 @@
 {% block title %}Dashboard - Auditoria Hospitalar{% endblock %}
 
 {% block content %}
-<h2>Dashboard de Auditoria</h2>
+
+<style>
+    /* Estilo para os cards de estatística (superiores) */
+    .stat-card {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        height: 100%;
+    }
+
+    .stat-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    .stat-card .card-body {
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .stat-card-icon {
+        font-size: 2.5rem;
+        padding: 1rem;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f0f0f0;
+        /* Fundo genérico */
+        color: #333;
+        /* Cor genérica */
+    }
+
+    /* Cores dos ícones */
+    .icon-primary {
+        background-color: #e6f0ff;
+        color: #0d6efd;
+    }
+
+    .icon-warning {
+        background-color: #fff8e6;
+        color: #ffc107;
+    }
+
+    .icon-success {
+        background-color: #e8f8f0;
+        color: #198754;
+    }
+
+    .stat-card-info h5 {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #6c757d;
+        /* text-muted */
+        margin-bottom: 0.25rem;
+        text-transform: uppercase;
+        /* Deixa o título mais sofisticado */
+    }
+
+    .stat-card-info h2 {
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: #212529;
+        margin-bottom: 0;
+    }
+
+    /* Estilo para os cards das tabelas (inferiores) */
+    .dashboard-card {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        height: 100%;
+    }
+
+    .dashboard-card .card-header {
+        background-color: #ffffff;
+        border-bottom: 1px solid #f0f0f0;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        font-weight: 600;
+        color: #343a40;
+    }
+
+    /* Remove o padding do card-body para a tabela se ajustar */
+    .dashboard-card .card-body {
+        padding: 0;
+    }
+
+    /* Garante que a tabela não tenha margem e se ajuste ao card */
+    .dashboard-card .table {
+        margin-bottom: 0;
+    }
+
+    /* Arredonda os cantos inferiores da tabela (quando for a última coisa no card) */
+    .dashboard-card .table:last-child {
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        overflow: hidden;
+    }
+</style>
+<h2 class="h3 mb-4" style="color: #495057;">
+    <i class="bi bi-grid-1x2-fill me-2"></i> Dashboard de Auditoria
+</h2>
+
 
 <div class="row mt-4">
-    <div class="col-md-4">
-        <div class="card text-white bg-primary mb-3">
+    <div class="col-md-4 mb-4">
+        <div class="stat-card">
             <div class="card-body">
-                <h5 class="card-title">Internações Ativas</h5>
-                <h2>{{ total_internacoes }}</h2>
+                <div class="stat-card-info">
+                    <h5 class="card-title">Internações Ativas</h5>
+                    <h2 class="mb-0">{{ total_internacoes }}</h2>
+                </div>
+                <div class="stat-card-icon icon-primary">
+                    <i class="bi bi-hospital"></i>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="card text-white bg-warning mb-3">
+
+    <div class="col-md-4 mb-4">
+        <div class="stat-card">
             <div class="card-body">
-                <h5 class="card-title">Alertas Ativos</h5>
-                <h2>{{ total_alertas }}</h2>
+                <div class="stat-card-info">
+                    <h5 class="card-title">Alertas Ativos</h5>
+                    <h2 class="mb-0">{{ total_alertas }}</h2>
+                </div>
+                <div class="stat-card-icon icon-warning">
+                    <i class="bi bi-exclamation-triangle-fill"></i>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="card text-white bg-success mb-3">
+
+    <div class="col-md-4 mb-4">
+        <div class="stat-card">
             <div class="card-body">
-                <h5 class="card-title">Auditorias Hoje</h5>
-                <h2>0</h2>
+                <div class="stat-card-info">
+                    <h5 class="card-title">Auditorias Hoje</h5>
+                    <h2 class="mb-0">0</h2>
+                </div>
+                <div class="stat-card-icon icon-success">
+                    <i class="bi bi-clipboard-check-fill"></i>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="row mt-4">
-    <div class="col-md-6">
-        <h4>Internações por Setor</h4>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Setor</th>
-                    <th>Total</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for setor in por_setor %}
-                <tr>
-                    <td>{{ setor.setor }}</td>
-                    <td>{{ setor.total }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+
+<div class="row mt-3">
+    <div class="col-lg-6 mb-4">
+        <div class="card dashboard-card">
+            <div class="card-header">
+                <i class="bi bi-building me-2"></i>
+                Internações por Setor
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped mb-0">
+                        <thead>
+                            <tr>
+                                <th scope="col">Setor</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for setor in por_setor %}
+                            <tr>
+                                <td>{{ setor.setor }}</td>
+                                <td>{{ setor.total }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-6">
-        <h4>Últimas Internações</h4>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Paciente</th>
-                    <th>Setor</th>
-                    <th>Dias</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for internacao in internacoes_ativas|slice:":5" %}
-                <tr>
-                    <td>{{ internacao.paciente.nome }}</td>
-                    <td>{{ internacao.setor }}</td>
-                    <td>{{ internacao.tempo_permanencia }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+
+    <div class="col-lg-6 mb-4">
+        <div class="card dashboard-card">
+            <div class="card-header">
+                <i class="bi bi-clock-history me-2"></i>
+                Últimas Internações
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped mb-0">
+                        <thead>
+                            <tr>
+                                <th scope="col">Paciente</th>
+                                <th scope="col">Setor</th>
+                                <th scope="col">Dias</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for internacao in internacoes_ativas|slice:":5" %}
+                            <tr>
+                                <td>{{ internacao.paciente.nome }}</td>
+                                <td>{{ internacao.setor }}</td>
+                                <td>{{ internacao.tempo_permanencia }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 {% endblock %}

@@ -3,58 +3,140 @@
 {% block title %}Monitoramento em Tempo Real{% endblock %}
 
 {% block content %}
-<h2>Monitoramento de Pacientes Internados</h2>
 
-<div class="mb-3">
-    <form method="get" class="row g-3">
-        <div class="col-auto">
-            <select name="setor" class="form-select">
-                <option value="">Todos os setores</option>
-                {% for value, label in setores %}
-                <option value="{{ value }}" {% if setor_filtro == value %}selected{% endif %}>{{ label }}</option>
-                {% endfor %}
-            </select>
+<style>
+    .monitor-card {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        height: 100%;
+        overflow: hidden; /* Garante que a tabela respeite as bordas */
+    }
+    .monitor-card .card-header {
+        background-color: #ffffff;
+        border-bottom: 1px solid #f0f0f0;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        /* Alinha o título e o filtro */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.25rem;
+    }
+    .monitor-card .card-header h5 {
+        margin-bottom: 0;
+        font-weight: 600;
+        color: #343a40;
+    }
+    .monitor-card .card-body {
+        padding: 0; /* Remove padding para a tabela colar */
+    }
+
+    /* Melhora o estilo de alerta da tabela */
+    tr.alerta-tempo {
+        background-color: #fffbe6 !important; /* Amarelo bem claro */
+        border-left: 4px solid #ffc107; /* Borda lateral de destaque */
+    }
+    /* Escurece um pouco no hover */
+    .table-hover > tr.alerta-tempo:hover {
+        background-color: #fff3cd !important;
+    }
+
+    /* Deixa o cabeçalho da tabela mais limpo */
+    .table > thead {
+        background-color: #f8f9fa; /* Cor de fundo sutil */
+        border-bottom: 1px solid #dee2e6;
+    }
+    .table > thead th {
+        font-weight: 600;
+        color: #495057;
+    }
+
+</style>
+<h2 class="h3 mb-4" style="color: #495057;">
+    <i class="bi bi-display"></i> Monitoramento de Pacientes
+</h2>
+
+
+<div class="card monitor-card">
+    
+    <div class="card-header">
+        <h5 class="mb-0">
+            <i class="bi bi-table me-2"></i>
+            Pacientes Internados
+        </h5>
+        
+        <form method="get" class="row g-2 align-items-center">
+            <div class="col-auto">
+                <select name="setor" class="form-select form-select-sm">
+                    <option value="">Todos os setores</option>
+                    {% for value, label in setores %}
+                    <option value="{{ value }}" {% if setor_filtro == value %}selected{% endif %}>{{ label }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="bi bi-filter me-1"></i>Filtrar
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0">
+                <thead>
+                    <tr>
+                        <th>Paciente</th>
+                        <th>Patologia</th>
+                        <th>Setor</th>
+                        <th>Data Entrada</th>
+                        <th>Dias Internado</th>
+                        <th>Tempo Ideal</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for internacao in internacoes %}
+                    <tr class="{% if internacao.tem_alerta %}alerta-tempo{% endif %}">
+                        <td>
+                            <i class="bi bi-person-fill text-muted me-2"></i>
+                            {{ internacao.paciente.nome }}
+                        </td>
+                        <td>{{ internacao.patologia.nome }}</td>
+                        <td>
+                            <span class="badge bg-info-subtle text-info-emphasis rounded-pill">
+                                {{ internacao.setor }}
+                            </span>
+                        </td>
+                        <td>{{ internacao.data_entrada|date:"d/m/Y H:i" }}</td>
+                        <td><strong>{{ internacao.tempo_permanencia }}</strong></td>
+                        <td>{{ internacao.patologia.tempo_internacao_ideal }}</td>
+                        <td>
+                            {% if internacao.tem_alerta %}
+                            <span class="badge bg-warning-subtle text-warning-emphasis rounded-pill">
+                                ⚠️ Alerta
+                            </span>
+                            {% else %}
+                            <span class="badge bg-success-subtle text-success-emphasis rounded-pill">
+                                <i class="bi bi-check-circle-fill me-1"></i> Normal
+                            </span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="7" class="text-center p-4">
+                            <i class="bi bi-info-circle me-2 text-muted"></i>
+                            Nenhuma internação ativa encontrada com os filtros aplicados.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
         </div>
-        <div class="col-auto">
-            <button type="submit" class="btn btn-primary">Filtrar</button>
-        </div>
-    </form>
+    </div>
 </div>
-
-<table class="table table-hover">
-    <thead>
-        <tr>
-            <th>Paciente</th>
-            <th>Patologia</th>
-            <th>Setor</th>
-            <th>Data Entrada</th>
-            <th>Dias Internado</th>
-            <th>Tempo Ideal</th>
-            <th>Status</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for internacao in internacoes %}
-        <tr class="{% if internacao.tem_alerta %}alerta-tempo{% endif %}">
-            <td>{{ internacao.paciente.nome }}</td>
-            <td>{{ internacao.patologia.nome }}</td>
-            <td><span class="badge bg-info">{{ internacao.setor }}</span></td>
-            <td>{{ internacao.data_entrada|date:"d/m/Y H:i" }}</td>
-            <td><strong>{{ internacao.tempo_permanencia }}</strong></td>
-            <td>{{ internacao.patologia.tempo_internacao_ideal }}</td>
-            <td>
-                {% if internacao.tem_alerta %}
-                <span class="badge bg-warning">⚠️ Alerta</span>
-                {% else %}
-                <span class="badge bg-success">Normal</span>
-                {% endif %}
-            </td>
-        </tr>
-        {% empty %}
-        <tr>
-            <td colspan="7" class="text-center">Nenhuma internação ativa</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
 {% endblock %}
