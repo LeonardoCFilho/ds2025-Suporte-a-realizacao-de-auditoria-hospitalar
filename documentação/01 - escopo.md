@@ -12,6 +12,13 @@ A auditoria concorrente acompanha em tempo real procedimentos, tempo de interna�
 
 O projeto visa desenvolver um sistema de software que integra os dois modelos de auditoria — concorrente e retrospectiva — em uma única plataforma, permitindo o acompanhamento em tempo real das internações, a revisão criteriosa dos procedimentos e a gestão eficiente dos recursos hospitalares. O sistema tem como objetivo garantir uma assistência médica ética e segura, reduzir custos desnecessários e aumentar a transparência nos processos hospitalares, facilitando a identificação de excessos, a otimização do uso de exames e materiais e a preservação da saúde do paciente ao longo de toda a internação.
 
+Além dos módulos de auditoria concorrente e retrospectiva, o sistema contará com um **agente de inteligência artificial** baseado em RAG (Retrieval-Augmented Generation).  
+
+Esse agente tem como função **identificar pacientes com potencial de desospitalização**, priorizando casos com base em critérios clínicos, administrativos e de segurança.  
+
+O objetivo é apoiar o auditor e o time assistencial na **redução de permanências desnecessárias**, sem comprometer a segurança do paciente, e oferecer **explicações claras** sobre o motivo de cada recomendação.
+
+
 #### Diagrama de contexto
 
 ![alt text](https://github.com/LeonardoCFilho/ds2025-Suporte-a-realizacao-de-auditoria-hospitalar/blob/main/DOC/diagramas/1.diagrama_contexto.png)
@@ -36,7 +43,16 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 - **Interface de conferência** de materiais e medicamentos utilizados
 - **Sistema de aprovação/rejeição** de itens da conta hospitalar
 
-#### 2.3 Funcionalidades Gerais
+#### 2.3 Agente de Desospitalização (IA RAG)
+
+- **Geração de lista diária** de pacientes com potencial de alta hospitalar
+- **Classificação por prioridade (Alta, Média, Baixa)** conforme critérios clínicos e operacionais
+- **Justificativas automáticas** com base em dados do prontuário, protocolos e regras do pagador
+- **Identificação de pendências** (exames, pareceres, documentos administrativos)
+- **Interface integrada** para que auditores e médicos validem ou rejeitem recomendações
+- **Registro de decisões humanas** e motivos (para auditoria e aprendizado futuro)
+
+#### 2.4 Funcionalidades Gerais
 
 - **Controle de custos** por procedimento e paciente
 - **Histórico de auditorias** realizadas
@@ -55,6 +71,8 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 - **Segurança de dados** conforme LGPD e regulamentações de saúde.
 - **Performance para acompanhamento** em tempo real durante auditorias concorrentes.
 - **Armazenamento seguro e confiável** de histórico de auditorias e relatórios.
+- **Explicabilidade da IA:** todas as recomendações do agente devem exibir as fontes de informação usadas (ex.: prontuário, protocolo, regra administrativa), garantindo transparência e rastreabilidade.
+
 
 ### 4. Controles Éticos e de Qualidade
 
@@ -62,6 +80,9 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 - **Monitoramento de tempo ideal** de internação por patologia
 - **Alertas de risco** para infecções hospitalares por permanência prolongada
 - **Validação cruzada** de exames solicitados versus necessidade clínica
+- **Revisão humana obrigatória** das recomendações do agente antes de qualquer alta
+- **Auditoria de decisões da IA**, com registro de justificativas e acompanhamento de resultados clínicos
+
 
 ### 5. NÃO ESCOPO
 
@@ -71,6 +92,8 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 - **Não substitui** a avaliação médica profissional
 - **Não realiza** prescrições ou alterações em tratamentos
 - **Não interfere** diretamente nas decisões médicas
+- **O agente de desospitalização não substitui a decisão médica**: ele apenas recomenda casos com base em critérios e dados disponíveis, devendo sempre haver validação por profissional de saúde.
+
 
 #### 5.2 Sistemas Externos
 
@@ -107,3 +130,5 @@ O projeto visa desenvolver um sistema de software que integra os dois modelos de
 - Necessidade de parametrização inicial dos padrões de procedimentos
 - Limitação às auditorias concorrente e intra (não preventiva)
 - Foco em operadoras de planos de saúde e hospitais privados
+- Dependência da qualidade dos dados clínicos e administrativos para que o agente de desospitalização gere recomendações confiáveis.
+

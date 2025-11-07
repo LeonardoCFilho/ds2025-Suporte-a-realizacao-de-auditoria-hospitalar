@@ -93,6 +93,15 @@ Domínio → Regras de negócio
 Infraestrutura → Banco de dados, APIs externas
 ```
 
+### Transparência e Explicabilidade da IA
+
+**Toda recomendação feita pela IA deve ser rastreável e compreensível.**
+
+- O agente deve sempre indicar **as fontes de informação** usadas (ex.: prontuário, protocolo, regra do pagador).  
+- As saídas devem ser **curtas, claras e explicáveis**, evitando respostas genéricas.  
+- O auditor deve conseguir entender **por que** a IA sugeriu determinada ação antes de validar.
+
+
 ## 3. Design Patterns Principais
 
 ### Repository Pattern
@@ -118,6 +127,8 @@ Criação de diferentes tipos de relatórios. -->
 - Lógica de glosa no domínio, não nos controllers
 - Validações de procedimentos centralizadas
 - Padrões de patologia em base de conhecimento
+- Recomendações do agente de desospitalização (RAG) devem seguir critérios auditáveis e revisáveis por humanos.
+
 
 ### Performance
 
@@ -130,6 +141,8 @@ Criação de diferentes tipos de relatórios. -->
 - LGPD: criptografia de dados sensíveis
 - Backup automático regular
 - Controle de acesso por permissões
+- As decisões automatizadas devem ser auditáveis e revisadas por profissional responsável.
+
 
 ### Testabilidade
 
