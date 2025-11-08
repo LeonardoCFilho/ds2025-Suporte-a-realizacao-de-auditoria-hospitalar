@@ -2,6 +2,8 @@
 
 Repositório destinado ao trabalho final de design de software, tema: Suporte a realização de auditoria hospitalar concorrente e intra
 
+[Apresentação do MVP funcional](https://youtu.be/_KIvFS10hrk)
+
 ## Membros do grupo
 
 |   | Nome | Cargo | Responsabilidade no projeto |
