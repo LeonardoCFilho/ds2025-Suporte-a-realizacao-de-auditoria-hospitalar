@@ -53,7 +53,20 @@
 - RF044 - O Sistema deve registrar data e hora do envio das notificações.
 - RF045 - O Usuário deve poder gerar relatórios de custos e sinistralidade mensais ou anuais.
 
----
+### 1.4 Inteligência Artificial para Desospitalização
+
+- RF046 - O Sistema deve integrar um módulo de Inteligência Artificial (IA) para recomendar pacientes com potencial de desospitalização.
+- RF047 - A IA deve gerar uma lista de pacientes com prioridade de desospitalização, classificada por nível de urgência (Alta, Média, Baixa).
+- RF048 - A IA deve apresentar, junto à recomendação, a justificativa clínica baseada em dados do paciente (exames, tempo de internação, evolução, diagnósticos).
+- RF049 - O Sistema deve permitir que o auditor revise e confirme ou rejeite a sugestão da IA.
+- RF050 - O Sistema deve registrar as decisões dos auditores sobre cada recomendação de desospitalização feita pela IA.
+- RF051 - O Sistema deve aprender continuamente com as decisões dos auditores, ajustando seus modelos de recomendação.
+- RF052 - O Sistema deve permitir visualização de métricas de desempenho da IA (precisão, acurácia e taxa de concordância com auditores).
+- RF053 - O Sistema deve possibilitar o treinamento periódico da IA com novos dados hospitalares, mediante autorização de administradores.
+- RF054 - O Sistema deve permitir filtrar recomendações de desospitalização por setor, patologia ou tempo de internação.
+- RF055 - O Sistema deve emitir alertas quando um paciente estiver além do tempo ideal de internação, mas ainda não tiver sido avaliado pela IA.
+- RF056 - O Sistema deve disponibilizar relatório consolidado das recomendações de alta geradas pela IA e suas respectivas decisões humanas.
+- RF057 - O Sistema deve permitir exportar relatórios de recomendações da IA em formato PDF ou Excel.
 
 ## 2. Requisitos Não Funcionais
 
@@ -86,4 +99,11 @@
 - RNF016 - O Sistema deve permitir criação de testes automatizados unitários e de integração.
 - RNF017 - O Sistema deve disponibilizar interfaces para uso de mocks em testes.
 
----
+### 2.7 Requisitos Não Funcionais – Inteligência Artificial
+
+- RNF018 - O modelo de IA deve ser explicável, apresentando justificativas compreensíveis para suas recomendações.
+- RNF019 - O módulo de IA deve utilizar dados anonimizados, garantindo conformidade com a LGPD.
+- RNF020 - O treinamento e execução da IA devem ocorrer em ambiente seguro, isolado do ambiente de produção.
+- RNF021 - A IA deve fornecer respostas com tempo máximo de processamento de 5 segundos por paciente.
+- RNF022 - O sistema deve registrar logs detalhados das recomendações e decisões humanas para auditoria e rastreabilidade.
+
