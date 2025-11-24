@@ -6,3 +6,8 @@
 **/venv/
 **/db.sqlite3
 **/__pycache__/
+
+chorma_db/
+venv/
+.env
+.vscode/

@@ -1,0 +1,906 @@
+auditoria_id,internacao_id,tipo,data_auditoria,itens_glosados,valor_glosado,observacoes
+A00002,I00002,RETROSPECTIVA,2024-11-19,1,780.95,Internação dentro dos parâmetros esperados
+A00003,I00003,CONCORRENTE,2024-12-19,1,301.02,Identificados procedimentos desnecessários
+A00009,I00009,CONCORRENTE,2024-11-22,2,3088.7200000000003,Tempo de internação adequado à patologia
+A00010,I00010,CONCORRENTE,2024-11-20,0,0.0,Necessária revisão de alguns procedimentos
+A00011,I00011,CONCORRENTE,2024-12-02,0,0.0,Necessária revisão de alguns procedimentos
+A00013,I00013,CONCORRENTE,2024-12-22,0,0.0,Identificados procedimentos desnecessários
+A00014,I00014,CONCORRENTE,2024-11-17,0,0.0,Identificados procedimentos desnecessários
+A00016,I00016,RETROSPECTIVA,2024-11-19,1,68.74,Tempo de internação adequado à patologia
+A00017,I00017,CONCORRENTE,2024-12-13,1,2153.35,Tempo de internação adequado à patologia
+A00018,I00018,RETROSPECTIVA,2024-11-14,1,1114.92,Necessária revisão de alguns procedimentos
+A00019,I00019,CONCORRENTE,2024-11-30,1,719.73,Internação dentro dos parâmetros esperados
+A00020,I00020,RETROSPECTIVA,2024-12-25,1,1406.0,Necessária revisão de alguns procedimentos
+A00021,I00021,RETROSPECTIVA,2024-12-22,0,0.0,Tempo de internação adequado à patologia
+A00023,I00023,RETROSPECTIVA,2024-12-30,0,0.0,Tempo de internação adequado à patologia
+A00024,I00024,RETROSPECTIVA,2024-12-09,2,4762.25,Tempo de internação adequado à patologia
+A00025,I00025,CONCORRENTE,2024-11-11,2,1573.8999999999999,Necessária revisão de alguns procedimentos
+A00026,I00026,RETROSPECTIVA,2024-11-23,0,0.0,Internação dentro dos parâmetros esperados
+A00029,I00029,RETROSPECTIVA,2024-12-11,1,1858.48,Internação dentro dos parâmetros esperados
+A00030,I00030,CONCORRENTE,2024-12-06,0,0.0,Identificados procedimentos desnecessários
+A00033,I00033,RETROSPECTIVA,2024-12-24,3,998.5799999999999,Identificados procedimentos desnecessários
+A00035,I00035,RETROSPECTIVA,2024-12-28,2,554.1,Identificados procedimentos desnecessários
+A00037,I00037,RETROSPECTIVA,2024-12-13,1,169.8,Internação dentro dos parâmetros esperados
+A00040,I00040,RETROSPECTIVA,2024-11-21,2,1760.3600000000001,Internação dentro dos parâmetros esperados
+A00041,I00041,RETROSPECTIVA,2024-12-25,1,46.3,Tempo de internação adequado à patologia
+A00042,I00042,CONCORRENTE,2024-12-10,0,0.0,Identificados procedimentos desnecessários
+A00044,I00044,RETROSPECTIVA,2024-11-29,0,0.0,Tempo de internação adequado à patologia
+A00045,I00045,CONCORRENTE,2024-11-22,0,0.0,Necessária revisão de alguns procedimentos
+A00046,I00046,CONCORRENTE,2024-12-13,0,0.0,Necessária revisão de alguns procedimentos
+A00049,I00049,CONCORRENTE,2024-12-04,0,0.0,Internação dentro dos parâmetros esperados
+A00051,I00051,CONCORRENTE,2024-12-07,3,3501.15,Internação dentro dos parâmetros esperados
+A00052,I00052,CONCORRENTE,2024-12-04,5,3534.6000000000004,Identificados procedimentos desnecessários
+A00053,I00053,RETROSPECTIVA,2024-12-27,2,1318.37,Necessária revisão de alguns procedimentos
+A00057,I00057,RETROSPECTIVA,2024-11-13,2,1754.83,Necessária revisão de alguns procedimentos
+A00058,I00058,RETROSPECTIVA,2024-11-27,0,0.0,Tempo de internação adequado à patologia
+A00059,I00059,RETROSPECTIVA,2024-11-14,1,490.34999999999997,Tempo de internação adequado à patologia
+A00061,I00061,CONCORRENTE,2024-11-20,1,308.31,Internação dentro dos parâmetros esperados
+A00062,I00062,RETROSPECTIVA,2024-11-08,1,850.72,Internação dentro dos parâmetros esperados
+A00064,I00064,CONCORRENTE,2024-12-23,2,282.31,Necessária revisão de alguns procedimentos
+A00065,I00065,CONCORRENTE,2024-11-07,1,1761.64,Identificados procedimentos desnecessários
+A00066,I00066,RETROSPECTIVA,2024-11-04,1,1392.1200000000001,Necessária revisão de alguns procedimentos
+A00068,I00068,CONCORRENTE,2024-12-19,3,2294.42,Necessária revisão de alguns procedimentos
+A00071,I00071,CONCORRENTE,2024-12-20,2,1129.26,Necessária revisão de alguns procedimentos
+A00074,I00074,CONCORRENTE,2024-12-05,0,0.0,Identificados procedimentos desnecessários
+A00076,I00076,CONCORRENTE,2024-12-28,1,706.4,Identificados procedimentos desnecessários
+A00077,I00077,RETROSPECTIVA,2024-11-06,3,2800.49,Internação dentro dos parâmetros esperados
+A00079,I00079,RETROSPECTIVA,2024-12-01,0,0.0,Necessária revisão de alguns procedimentos
+A00080,I00080,RETROSPECTIVA,2024-12-06,1,1726.0,Identificados procedimentos desnecessários
+A00082,I00082,CONCORRENTE,2024-12-20,1,357.24,Necessária revisão de alguns procedimentos
+A00086,I00086,RETROSPECTIVA,2024-12-04,0,0.0,Identificados procedimentos desnecessários
+A00088,I00088,CONCORRENTE,2024-11-29,0,0.0,Internação dentro dos parâmetros esperados
+A00089,I00089,RETROSPECTIVA,2024-12-29,1,441.77,Necessária revisão de alguns procedimentos
+A00090,I00090,RETROSPECTIVA,2024-12-24,0,0.0,Internação dentro dos parâmetros esperados
+A00092,I00092,RETROSPECTIVA,2024-11-21,0,0.0,Internação dentro dos parâmetros esperados
+A00093,I00093,CONCORRENTE,2024-11-18,0,0.0,Tempo de internação adequado à patologia
+A00094,I00094,RETROSPECTIVA,2024-12-24,2,1837.3400000000001,Identificados procedimentos desnecessários
+A00095,I00095,RETROSPECTIVA,2024-12-06,1,2321.7,Tempo de internação adequado à patologia
+A00097,I00097,CONCORRENTE,2024-12-27,1,196.22,Necessária revisão de alguns procedimentos
+A00098,I00098,RETROSPECTIVA,2024-11-09,0,0.0,Tempo de internação adequado à patologia
+A00099,I00099,RETROSPECTIVA,2024-12-23,0,0.0,Necessária revisão de alguns procedimentos
+A00101,I00101,RETROSPECTIVA,2024-12-25,0,0.0,Identificados procedimentos desnecessários
+A00102,I00102,RETROSPECTIVA,2024-11-14,1,701.06,Internação dentro dos parâmetros esperados
+A00103,I00103,RETROSPECTIVA,2024-11-22,1,406.56,Internação dentro dos parâmetros esperados
+A00105,I00105,RETROSPECTIVA,2024-12-26,0,0.0,Internação dentro dos parâmetros esperados
+A00107,I00107,RETROSPECTIVA,2024-11-26,1,457.15,Internação dentro dos parâmetros esperados
+A00111,I00111,CONCORRENTE,2024-12-20,4,3672.74,Necessária revisão de alguns procedimentos
+A00112,I00112,CONCORRENTE,2024-12-26,2,1139.8899999999999,Tempo de internação adequado à patologia
+A00114,I00114,CONCORRENTE,2024-12-03,1,1463.67,Internação dentro dos parâmetros esperados
+A00116,I00116,CONCORRENTE,2024-11-21,2,3090.54,Internação dentro dos parâmetros esperados
+A00118,I00118,CONCORRENTE,2024-12-10,1,403.18,Necessária revisão de alguns procedimentos
+A00121,I00121,RETROSPECTIVA,2024-12-04,0,0.0,Identificados procedimentos desnecessários
+A00124,I00124,CONCORRENTE,2024-12-22,0,0.0,Necessária revisão de alguns procedimentos
+A00125,I00125,RETROSPECTIVA,2024-11-19,0,0.0,Necessária revisão de alguns procedimentos
+A00126,I00126,CONCORRENTE,2024-12-28,1,352.28,Identificados procedimentos desnecessários
+A00127,I00127,CONCORRENTE,2024-12-06,2,2095.3199999999997,Internação dentro dos parâmetros esperados
+A00128,I00128,CONCORRENTE,2024-12-24,1,209.52,Tempo de internação adequado à patologia
+A00129,I00129,CONCORRENTE,2024-12-07,0,0.0,Tempo de internação adequado à patologia
+A00130,I00130,CONCORRENTE,2024-11-18,0,0.0,Identificados procedimentos desnecessários
+A00131,I00131,RETROSPECTIVA,2024-12-10,0,0.0,Tempo de internação adequado à patologia
+A00133,I00133,RETROSPECTIVA,2024-11-18,2,3051.41,Identificados procedimentos desnecessários
+A00134,I00134,RETROSPECTIVA,2025-01-06,1,359.72,Tempo de internação adequado à patologia
+A00135,I00135,CONCORRENTE,2024-11-29,1,1543.4,Necessária revisão de alguns procedimentos
+A00140,I00140,RETROSPECTIVA,2024-11-23,1,656.97,Internação dentro dos parâmetros esperados
+A00142,I00142,RETROSPECTIVA,2024-11-17,2,2826.49,Tempo de internação adequado à patologia
+A00143,I00143,CONCORRENTE,2024-11-15,0,0.0,Necessária revisão de alguns procedimentos
+A00144,I00144,CONCORRENTE,2024-12-22,4,2898.12,Necessária revisão de alguns procedimentos
+A00146,I00146,RETROSPECTIVA,2024-12-29,3,1000.3999999999999,Internação dentro dos parâmetros esperados
+A00149,I00149,CONCORRENTE,2024-11-15,0,0.0,Tempo de internação adequado à patologia
+A00152,I00152,RETROSPECTIVA,2024-11-30,1,172.44,Necessária revisão de alguns procedimentos
+A00153,I00153,CONCORRENTE,2024-11-04,0,0.0,Necessária revisão de alguns procedimentos
+A00161,I00161,CONCORRENTE,2024-12-03,0,0.0,Identificados procedimentos desnecessários
+A00165,I00165,CONCORRENTE,2024-12-09,4,2847.87,Necessária revisão de alguns procedimentos
+A00166,I00166,RETROSPECTIVA,2024-11-15,3,3909.5800000000004,Necessária revisão de alguns procedimentos
+A00169,I00169,RETROSPECTIVA,2024-11-29,4,3031.24,Necessária revisão de alguns procedimentos
+A00171,I00171,RETROSPECTIVA,2024-12-06,4,1588.43,Tempo de internação adequado à patologia
+A00174,I00174,CONCORRENTE,2024-12-30,1,498.19,Tempo de internação adequado à patologia
+A00176,I00176,CONCORRENTE,2024-12-07,1,508.4,Identificados procedimentos desnecessários
+A00178,I00178,RETROSPECTIVA,2024-11-19,3,2406.7200000000003,Internação dentro dos parâmetros esperados
+A00179,I00179,CONCORRENTE,2024-11-25,2,1308.97,Identificados procedimentos desnecessários
+A00180,I00180,CONCORRENTE,2024-12-24,1,416.69,Identificados procedimentos desnecessários
+A00182,I00182,CONCORRENTE,2024-12-31,0,0.0,Identificados procedimentos desnecessários
+A00183,I00183,CONCORRENTE,2024-11-25,1,484.26,Internação dentro dos parâmetros esperados
+A00186,I00186,RETROSPECTIVA,2024-12-06,4,1954.1799999999998,Internação dentro dos parâmetros esperados
+A00188,I00188,CONCORRENTE,2024-11-20,0,0.0,Internação dentro dos parâmetros esperados
+A00190,I00190,CONCORRENTE,2024-11-17,0,0.0,Internação dentro dos parâmetros esperados
+A00191,I00191,CONCORRENTE,2024-12-01,1,2403.5499999999997,Identificados procedimentos desnecessários
+A00192,I00192,CONCORRENTE,2024-12-07,2,2575.3999999999996,Identificados procedimentos desnecessários
+A00193,I00193,CONCORRENTE,2025-01-03,5,3931.1400000000003,Internação dentro dos parâmetros esperados
+A00194,I00194,CONCORRENTE,2024-12-30,1,486.81,Identificados procedimentos desnecessários
+A00195,I00195,RETROSPECTIVA,2024-11-11,0,0.0,Identificados procedimentos desnecessários
+A00197,I00197,RETROSPECTIVA,2024-12-02,1,1155.6,Necessária revisão de alguns procedimentos
+A00198,I00198,RETROSPECTIVA,2024-12-21,0,0.0,Internação dentro dos parâmetros esperados
+A00200,I00200,CONCORRENTE,2024-12-10,3,3451.7699999999995,Necessária revisão de alguns procedimentos
+A00201,I00201,CONCORRENTE,2024-11-26,0,0.0,Internação dentro dos parâmetros esperados
+A00202,I00202,CONCORRENTE,2024-11-10,0,0.0,Tempo de internação adequado à patologia
+A00203,I00203,CONCORRENTE,2024-12-06,3,816.1100000000001,Internação dentro dos parâmetros esperados
+A00205,I00205,CONCORRENTE,2024-12-24,0,0.0,Internação dentro dos parâmetros esperados
+A00206,I00206,CONCORRENTE,2024-12-09,1,77.61,Tempo de internação adequado à patologia
+A00208,I00208,CONCORRENTE,2024-11-15,2,294.18,Internação dentro dos parâmetros esperados
+A00210,I00210,CONCORRENTE,2024-12-30,0,0.0,Identificados procedimentos desnecessários
+A00213,I00213,RETROSPECTIVA,2024-12-10,1,981.4,Internação dentro dos parâmetros esperados
+A00214,I00214,RETROSPECTIVA,2024-11-19,1,182.12,Identificados procedimentos desnecessários
+A00215,I00215,RETROSPECTIVA,2024-11-18,2,1613.63,Necessária revisão de alguns procedimentos
+A00218,I00218,RETROSPECTIVA,2024-12-25,1,414.96,Necessária revisão de alguns procedimentos
+A00219,I00219,RETROSPECTIVA,2024-12-14,1,594.0600000000001,Internação dentro dos parâmetros esperados
+A00220,I00220,RETROSPECTIVA,2024-11-23,3,2306.76,Necessária revisão de alguns procedimentos
+A00221,I00221,CONCORRENTE,2024-12-23,2,3369.6400000000003,Necessária revisão de alguns procedimentos
+A00222,I00222,RETROSPECTIVA,2024-11-12,1,158.34,Tempo de internação adequado à patologia
+A00223,I00223,RETROSPECTIVA,2024-12-06,2,937.25,Internação dentro dos parâmetros esperados
+A00225,I00225,CONCORRENTE,2024-12-01,1,136.33,Internação dentro dos parâmetros esperados
+A00227,I00227,RETROSPECTIVA,2024-11-21,2,400.13,Internação dentro dos parâmetros esperados
+A00228,I00228,RETROSPECTIVA,2024-11-10,4,5935.95,Tempo de internação adequado à patologia
+A00229,I00229,CONCORRENTE,2024-11-06,2,2868.6,Necessária revisão de alguns procedimentos
+A00234,I00234,RETROSPECTIVA,2024-12-30,0,0.0,Identificados procedimentos desnecessários
+A00235,I00235,CONCORRENTE,2024-12-18,1,734.9,Internação dentro dos parâmetros esperados
+A00236,I00236,CONCORRENTE,2024-12-23,0,0.0,Necessária revisão de alguns procedimentos
+A00237,I00237,CONCORRENTE,2024-11-27,2,1259.26,Internação dentro dos parâmetros esperados
+A00238,I00238,RETROSPECTIVA,2025-01-02,2,1296.04,Necessária revisão de alguns procedimentos
+A00241,I00241,CONCORRENTE,2024-12-12,2,653.9899999999999,Internação dentro dos parâmetros esperados
+A00243,I00243,RETROSPECTIVA,2024-12-23,2,403.58,Necessária revisão de alguns procedimentos
+A00244,I00244,RETROSPECTIVA,2024-12-29,2,306.36,Necessária revisão de alguns procedimentos
+A00245,I00245,CONCORRENTE,2024-12-08,3,4073.8299999999995,Identificados procedimentos desnecessários
+A00247,I00247,CONCORRENTE,2024-11-15,1,1044.57,Internação dentro dos parâmetros esperados
+A00249,I00249,RETROSPECTIVA,2024-12-04,1,393.63,Necessária revisão de alguns procedimentos
+A00251,I00251,RETROSPECTIVA,2024-12-21,2,1062.06,Internação dentro dos parâmetros esperados
+A00252,I00252,RETROSPECTIVA,2024-12-05,3,907.8,Necessária revisão de alguns procedimentos
+A00253,I00253,CONCORRENTE,2024-12-10,0,0.0,Internação dentro dos parâmetros esperados
+A00254,I00254,RETROSPECTIVA,2024-12-02,1,422.87,Identificados procedimentos desnecessários
+A00255,I00255,CONCORRENTE,2024-12-21,1,1923.92,Tempo de internação adequado à patologia
+A00256,I00256,CONCORRENTE,2025-01-03,1,1807.1000000000001,Internação dentro dos parâmetros esperados
+A00257,I00257,RETROSPECTIVA,2024-11-30,0,0.0,Tempo de internação adequado à patologia
+A00260,I00260,RETROSPECTIVA,2024-11-30,2,972.4000000000001,Identificados procedimentos desnecessários
+A00262,I00262,CONCORRENTE,2024-12-14,3,1764.1699999999998,Identificados procedimentos desnecessários
+A00263,I00263,RETROSPECTIVA,2024-11-17,2,1084.49,Identificados procedimentos desnecessários
+A00264,I00264,RETROSPECTIVA,2024-11-30,1,159.60000000000002,Necessária revisão de alguns procedimentos
+A00267,I00267,RETROSPECTIVA,2024-12-15,1,290.54,Tempo de internação adequado à patologia
+A00268,I00268,RETROSPECTIVA,2024-11-09,2,1449.26,Tempo de internação adequado à patologia
+A00269,I00269,RETROSPECTIVA,2024-11-08,2,466.32,Internação dentro dos parâmetros esperados
+A00270,I00270,RETROSPECTIVA,2025-01-09,0,0.0,Internação dentro dos parâmetros esperados
+A00274,I00274,RETROSPECTIVA,2024-11-27,0,0.0,Tempo de internação adequado à patologia
+A00275,I00275,CONCORRENTE,2024-11-25,2,279.38,Identificados procedimentos desnecessários
+A00277,I00277,RETROSPECTIVA,2024-11-28,2,852.8,Necessária revisão de alguns procedimentos
+A00279,I00279,RETROSPECTIVA,2024-11-26,0,0.0,Necessária revisão de alguns procedimentos
+A00280,I00280,CONCORRENTE,2024-11-16,2,2360.79,Internação dentro dos parâmetros esperados
+A00281,I00281,RETROSPECTIVA,2024-12-31,2,1208.02,Internação dentro dos parâmetros esperados
+A00282,I00282,RETROSPECTIVA,2024-12-10,1,1398.65,Necessária revisão de alguns procedimentos
+A00283,I00283,CONCORRENTE,2024-11-17,0,0.0,Necessária revisão de alguns procedimentos
+A00287,I00287,RETROSPECTIVA,2024-12-31,1,215.28,Identificados procedimentos desnecessários
+A00291,I00291,RETROSPECTIVA,2024-12-30,2,1179.42,Internação dentro dos parâmetros esperados
+A00292,I00292,RETROSPECTIVA,2024-12-28,3,2879.3,Internação dentro dos parâmetros esperados
+A00293,I00293,RETROSPECTIVA,2024-11-04,2,1601.51,Necessária revisão de alguns procedimentos
+A00296,I00296,RETROSPECTIVA,2024-12-15,1,1610.52,Necessária revisão de alguns procedimentos
+A00298,I00298,RETROSPECTIVA,2024-11-11,0,0.0,Necessária revisão de alguns procedimentos
+A00301,I00301,RETROSPECTIVA,2024-11-05,1,1625.3,Necessária revisão de alguns procedimentos
+A00302,I00302,RETROSPECTIVA,2024-11-25,0,0.0,Identificados procedimentos desnecessários
+A00305,I00305,RETROSPECTIVA,2024-12-04,1,2035.0,Identificados procedimentos desnecessários
+A00309,I00309,RETROSPECTIVA,2024-11-29,0,0.0,Tempo de internação adequado à patologia
+A00310,I00310,CONCORRENTE,2024-11-24,3,1907.1399999999999,Identificados procedimentos desnecessários
+A00311,I00311,CONCORRENTE,2024-11-21,2,1575.7199999999998,Necessária revisão de alguns procedimentos
+A00313,I00313,RETROSPECTIVA,2024-11-27,0,0.0,Necessária revisão de alguns procedimentos
+A00315,I00315,RETROSPECTIVA,2025-01-02,2,1471.81,Internação dentro dos parâmetros esperados
+A00316,I00316,CONCORRENTE,2024-11-30,0,0.0,Internação dentro dos parâmetros esperados
+A00317,I00317,CONCORRENTE,2024-11-09,1,93.2,Internação dentro dos parâmetros esperados
+A00318,I00318,CONCORRENTE,2024-12-29,0,0.0,Identificados procedimentos desnecessários
+A00319,I00319,RETROSPECTIVA,2024-11-20,3,2682.77,Identificados procedimentos desnecessários
+A00320,I00320,RETROSPECTIVA,2024-12-15,4,2738.5299999999997,Necessária revisão de alguns procedimentos
+A00321,I00321,RETROSPECTIVA,2024-11-08,3,2662.6900000000005,Internação dentro dos parâmetros esperados
+A00323,I00323,RETROSPECTIVA,2024-11-06,2,146.54000000000002,Internação dentro dos parâmetros esperados
+A00324,I00324,RETROSPECTIVA,2024-12-06,4,2105.4199999999996,Necessária revisão de alguns procedimentos
+A00326,I00326,CONCORRENTE,2024-12-04,0,0.0,Tempo de internação adequado à patologia
+A00328,I00328,CONCORRENTE,2024-11-10,1,275.04,Tempo de internação adequado à patologia
+A00329,I00329,RETROSPECTIVA,2025-01-08,0,0.0,Necessária revisão de alguns procedimentos
+A00332,I00332,CONCORRENTE,2024-12-16,1,965.12,Identificados procedimentos desnecessários
+A00333,I00333,CONCORRENTE,2024-12-06,0,0.0,Internação dentro dos parâmetros esperados
+A00334,I00334,RETROSPECTIVA,2024-12-02,1,2294.65,Necessária revisão de alguns procedimentos
+A00335,I00335,CONCORRENTE,2025-01-07,0,0.0,Identificados procedimentos desnecessários
+A00337,I00337,RETROSPECTIVA,2024-11-23,4,4731.42,Identificados procedimentos desnecessários
+A00338,I00338,RETROSPECTIVA,2024-12-19,0,0.0,Internação dentro dos parâmetros esperados
+A00339,I00339,RETROSPECTIVA,2024-12-12,0,0.0,Tempo de internação adequado à patologia
+A00343,I00343,CONCORRENTE,2024-11-30,1,315.29999999999995,Internação dentro dos parâmetros esperados
+A00345,I00345,RETROSPECTIVA,2024-11-15,1,269.25,Necessária revisão de alguns procedimentos
+A00346,I00346,CONCORRENTE,2024-11-16,0,0.0,Necessária revisão de alguns procedimentos
+A00348,I00348,CONCORRENTE,2024-11-03,2,2082.11,Tempo de internação adequado à patologia
+A00351,I00351,CONCORRENTE,2024-12-04,1,1093.1999999999998,Identificados procedimentos desnecessários
+A00352,I00352,RETROSPECTIVA,2024-11-27,1,616.66,Tempo de internação adequado à patologia
+A00353,I00353,CONCORRENTE,2024-12-15,4,5170.13,Identificados procedimentos desnecessários
+A00355,I00355,CONCORRENTE,2024-12-06,0,0.0,Necessária revisão de alguns procedimentos
+A00356,I00356,CONCORRENTE,2024-12-14,4,1904.1599999999999,Internação dentro dos parâmetros esperados
+A00357,I00357,CONCORRENTE,2024-11-29,0,0.0,Identificados procedimentos desnecessários
+A00361,I00361,CONCORRENTE,2025-01-02,1,375.42,Necessária revisão de alguns procedimentos
+A00363,I00363,CONCORRENTE,2025-01-03,2,1924.02,Internação dentro dos parâmetros esperados
+A00365,I00365,CONCORRENTE,2024-11-09,5,5519.87,Internação dentro dos parâmetros esperados
+A00366,I00366,RETROSPECTIVA,2024-11-16,1,947.3399999999999,Internação dentro dos parâmetros esperados
+A00368,I00368,RETROSPECTIVA,2024-11-21,0,0.0,Tempo de internação adequado à patologia
+A00372,I00372,RETROSPECTIVA,2024-12-24,1,1819.56,Internação dentro dos parâmetros esperados
+A00373,I00373,RETROSPECTIVA,2024-12-17,2,2005.27,Internação dentro dos parâmetros esperados
+A00374,I00374,RETROSPECTIVA,2024-12-11,0,0.0,Internação dentro dos parâmetros esperados
+A00376,I00376,RETROSPECTIVA,2024-11-23,2,1731.17,Tempo de internação adequado à patologia
+A00378,I00378,CONCORRENTE,2024-11-08,0,0.0,Internação dentro dos parâmetros esperados
+A00379,I00379,CONCORRENTE,2024-12-16,2,1293.24,Necessária revisão de alguns procedimentos
+A00381,I00381,CONCORRENTE,2024-12-01,0,0.0,Tempo de internação adequado à patologia
+A00383,I00383,CONCORRENTE,2024-12-04,1,632.4499999999999,Necessária revisão de alguns procedimentos
+A00384,I00384,RETROSPECTIVA,2025-01-02,1,43.95,Identificados procedimentos desnecessários
+A00385,I00385,CONCORRENTE,2024-11-16,1,1602.6,Necessária revisão de alguns procedimentos
+A00388,I00388,RETROSPECTIVA,2024-11-24,2,1568.61,Internação dentro dos parâmetros esperados
+A00390,I00390,CONCORRENTE,2024-11-20,1,100.38,Internação dentro dos parâmetros esperados
+A00391,I00391,CONCORRENTE,2024-12-21,2,890.44,Internação dentro dos parâmetros esperados
+A00392,I00392,CONCORRENTE,2024-11-23,1,52.56,Internação dentro dos parâmetros esperados
+A00393,I00393,CONCORRENTE,2024-11-18,0,0.0,Internação dentro dos parâmetros esperados
+A00394,I00394,CONCORRENTE,2024-11-21,3,432.15,Identificados procedimentos desnecessários
+A00395,I00395,RETROSPECTIVA,2024-11-08,0,0.0,Necessária revisão de alguns procedimentos
+A00397,I00397,RETROSPECTIVA,2024-12-22,3,2714.34,Internação dentro dos parâmetros esperados
+A00398,I00398,CONCORRENTE,2024-12-25,0,0.0,Tempo de internação adequado à patologia
+A00400,I00400,RETROSPECTIVA,2024-12-10,3,2707.11,Necessária revisão de alguns procedimentos
+A00401,I00401,RETROSPECTIVA,2025-01-09,1,549.63,Necessária revisão de alguns procedimentos
+A00402,I00402,RETROSPECTIVA,2024-12-21,2,346.72,Tempo de internação adequado à patologia
+A00403,I00403,CONCORRENTE,2024-12-11,2,769.65,Tempo de internação adequado à patologia
+A00404,I00404,RETROSPECTIVA,2024-12-04,1,498.69,Internação dentro dos parâmetros esperados
+A00405,I00405,RETROSPECTIVA,2024-12-16,0,0.0,Identificados procedimentos desnecessários
+A00406,I00406,RETROSPECTIVA,2024-11-21,0,0.0,Necessária revisão de alguns procedimentos
+A00407,I00407,CONCORRENTE,2024-12-02,0,0.0,Identificados procedimentos desnecessários
+A00408,I00408,RETROSPECTIVA,2024-12-20,2,1648.22,Internação dentro dos parâmetros esperados
+A00409,I00409,CONCORRENTE,2024-11-09,0,0.0,Identificados procedimentos desnecessários
+A00410,I00410,CONCORRENTE,2024-11-06,1,94.6,Identificados procedimentos desnecessários
+A00412,I00412,RETROSPECTIVA,2024-12-11,0,0.0,Internação dentro dos parâmetros esperados
+A00413,I00413,RETROSPECTIVA,2024-11-27,2,554.86,Identificados procedimentos desnecessários
+A00414,I00414,RETROSPECTIVA,2024-12-09,1,365.99,Internação dentro dos parâmetros esperados
+A00415,I00415,RETROSPECTIVA,2024-11-10,0,0.0,Identificados procedimentos desnecessários
+A00417,I00417,RETROSPECTIVA,2024-12-06,2,990.5600000000001,Identificados procedimentos desnecessários
+A00419,I00419,RETROSPECTIVA,2024-11-10,0,0.0,Internação dentro dos parâmetros esperados
+A00420,I00420,RETROSPECTIVA,2024-12-28,1,588.78,Identificados procedimentos desnecessários
+A00422,I00422,CONCORRENTE,2025-01-01,1,1948.8999999999999,Identificados procedimentos desnecessários
+A00423,I00423,CONCORRENTE,2024-12-06,1,292.18,Necessária revisão de alguns procedimentos
+A00425,I00425,CONCORRENTE,2024-11-23,4,5374.419999999999,Identificados procedimentos desnecessários
+A00426,I00426,CONCORRENTE,2024-11-22,3,4371.13,Tempo de internação adequado à patologia
+A00427,I00427,RETROSPECTIVA,2024-12-17,1,541.26,Identificados procedimentos desnecessários
+A00429,I00429,RETROSPECTIVA,2024-11-12,1,524.5,Internação dentro dos parâmetros esperados
+A00431,I00431,CONCORRENTE,2024-12-27,0,0.0,Necessária revisão de alguns procedimentos
+A00432,I00432,CONCORRENTE,2024-12-09,1,847.4,Identificados procedimentos desnecessários
+A00433,I00433,CONCORRENTE,2024-11-04,3,2139.97,Tempo de internação adequado à patologia
+A00436,I00436,CONCORRENTE,2024-12-18,1,93.0,Internação dentro dos parâmetros esperados
+A00437,I00437,RETROSPECTIVA,2024-12-22,1,49.96,Tempo de internação adequado à patologia
+A00439,I00439,CONCORRENTE,2024-12-31,3,1544.39,Necessária revisão de alguns procedimentos
+A00441,I00441,RETROSPECTIVA,2024-11-27,0,0.0,Internação dentro dos parâmetros esperados
+A00442,I00442,RETROSPECTIVA,2024-11-05,3,3739.85,Tempo de internação adequado à patologia
+A00447,I00447,RETROSPECTIVA,2024-11-22,1,1332.55,Necessária revisão de alguns procedimentos
+A00448,I00448,RETROSPECTIVA,2024-11-16,0,0.0,Tempo de internação adequado à patologia
+A00449,I00449,CONCORRENTE,2024-12-30,0,0.0,Internação dentro dos parâmetros esperados
+A00450,I00450,RETROSPECTIVA,2024-12-02,0,0.0,Necessária revisão de alguns procedimentos
+A00451,I00451,CONCORRENTE,2024-11-29,3,5498.2,Identificados procedimentos desnecessários
+A00453,I00453,CONCORRENTE,2025-01-03,3,1286.1100000000001,Identificados procedimentos desnecessários
+A00454,I00454,CONCORRENTE,2024-11-20,0,0.0,Necessária revisão de alguns procedimentos
+A00455,I00455,RETROSPECTIVA,2024-11-09,1,1957.3500000000001,Tempo de internação adequado à patologia
+A00457,I00457,RETROSPECTIVA,2024-11-06,0,0.0,Tempo de internação adequado à patologia
+A00461,I00461,RETROSPECTIVA,2024-12-03,0,0.0,Necessária revisão de alguns procedimentos
+A00463,I00463,CONCORRENTE,2024-11-26,3,2256.39,Identificados procedimentos desnecessários
+A00464,I00464,CONCORRENTE,2024-12-23,3,2177.52,Tempo de internação adequado à patologia
+A00467,I00467,RETROSPECTIVA,2024-12-17,0,0.0,Identificados procedimentos desnecessários
+A00470,I00470,CONCORRENTE,2024-11-21,1,2316.25,Identificados procedimentos desnecessários
+A00472,I00472,CONCORRENTE,2024-12-03,2,1096.96,Tempo de internação adequado à patologia
+A00473,I00473,RETROSPECTIVA,2024-12-06,2,3017.04,Tempo de internação adequado à patologia
+A00474,I00474,RETROSPECTIVA,2024-11-20,1,58.2,Necessária revisão de alguns procedimentos
+A00475,I00475,RETROSPECTIVA,2024-11-11,0,0.0,Tempo de internação adequado à patologia
+A00477,I00477,RETROSPECTIVA,2024-12-31,1,246.45,Tempo de internação adequado à patologia
+A00480,I00480,CONCORRENTE,2024-11-24,2,1178.77,Identificados procedimentos desnecessários
+A00481,I00481,CONCORRENTE,2024-11-22,3,2162.3999999999996,Identificados procedimentos desnecessários
+A00484,I00484,CONCORRENTE,2024-11-21,0,0.0,Identificados procedimentos desnecessários
+A00485,I00485,RETROSPECTIVA,2024-12-18,0,0.0,Tempo de internação adequado à patologia
+A00487,I00487,RETROSPECTIVA,2024-12-07,0,0.0,Internação dentro dos parâmetros esperados
+A00488,I00488,CONCORRENTE,2024-12-15,1,205.95000000000002,Identificados procedimentos desnecessários
+A00489,I00489,CONCORRENTE,2024-12-29,1,790.29,Internação dentro dos parâmetros esperados
+A00491,I00491,RETROSPECTIVA,2025-01-11,2,793.15,Internação dentro dos parâmetros esperados
+A00492,I00492,RETROSPECTIVA,2024-11-12,1,1107.9,Necessária revisão de alguns procedimentos
+A00494,I00494,RETROSPECTIVA,2024-11-25,3,1305.6,Tempo de internação adequado à patologia
+A00495,I00495,CONCORRENTE,2024-12-13,0,0.0,Internação dentro dos parâmetros esperados
+A00496,I00496,CONCORRENTE,2024-11-28,1,588.84,Tempo de internação adequado à patologia
+A00497,I00497,CONCORRENTE,2025-01-01,0,0.0,Identificados procedimentos desnecessários
+A00499,I00499,RETROSPECTIVA,2024-11-11,0,0.0,Tempo de internação adequado à patologia
+A00500,I00500,CONCORRENTE,2024-11-12,1,2123.3,Necessária revisão de alguns procedimentos
+A00501,I00501,RETROSPECTIVA,2024-12-30,1,321.27,Necessária revisão de alguns procedimentos
+A00502,I00502,RETROSPECTIVA,2024-12-23,1,1360.98,Identificados procedimentos desnecessários
+A00504,I00504,RETROSPECTIVA,2024-12-09,1,423.45,Necessária revisão de alguns procedimentos
+A00505,I00505,CONCORRENTE,2024-11-10,1,93.61,Internação dentro dos parâmetros esperados
+A00506,I00506,CONCORRENTE,2024-11-24,0,0.0,Identificados procedimentos desnecessários
+A00507,I00507,RETROSPECTIVA,2024-12-25,4,1977.2400000000002,Tempo de internação adequado à patologia
+A00508,I00508,CONCORRENTE,2024-12-04,1,733.96,Tempo de internação adequado à patologia
+A00510,I00510,CONCORRENTE,2024-12-09,4,2487.81,Tempo de internação adequado à patologia
+A00511,I00511,CONCORRENTE,2024-11-04,0,0.0,Tempo de internação adequado à patologia
+A00513,I00513,RETROSPECTIVA,2024-11-20,0,0.0,Tempo de internação adequado à patologia
+A00517,I00517,RETROSPECTIVA,2024-12-02,2,1002.9200000000001,Internação dentro dos parâmetros esperados
+A00518,I00518,CONCORRENTE,2024-12-06,0,0.0,Necessária revisão de alguns procedimentos
+A00521,I00521,CONCORRENTE,2024-11-24,1,1598.52,Necessária revisão de alguns procedimentos
+A00523,I00523,RETROSPECTIVA,2024-11-19,3,3913.59,Necessária revisão de alguns procedimentos
+A00524,I00524,CONCORRENTE,2024-11-21,1,1608.75,Tempo de internação adequado à patologia
+A00525,I00525,CONCORRENTE,2024-11-21,2,2169.83,Identificados procedimentos desnecessários
+A00526,I00526,CONCORRENTE,2024-12-16,0,0.0,Internação dentro dos parâmetros esperados
+A00530,I00530,RETROSPECTIVA,2024-12-25,1,769.0999999999999,Internação dentro dos parâmetros esperados
+A00531,I00531,CONCORRENTE,2024-11-07,1,890.08,Necessária revisão de alguns procedimentos
+A00532,I00532,RETROSPECTIVA,2024-12-23,0,0.0,Necessária revisão de alguns procedimentos
+A00533,I00533,RETROSPECTIVA,2024-12-28,2,771.98,Identificados procedimentos desnecessários
+A00534,I00534,RETROSPECTIVA,2024-12-13,1,1066.08,Tempo de internação adequado à patologia
+A00537,I00537,RETROSPECTIVA,2024-12-09,0,0.0,Identificados procedimentos desnecessários
+A00538,I00538,CONCORRENTE,2024-12-14,1,108.48,Necessária revisão de alguns procedimentos
+A00540,I00540,RETROSPECTIVA,2025-01-06,0,0.0,Internação dentro dos parâmetros esperados
+A00542,I00542,RETROSPECTIVA,2024-11-18,0,0.0,Tempo de internação adequado à patologia
+A00544,I00544,RETROSPECTIVA,2024-11-29,3,1867.19,Tempo de internação adequado à patologia
+A00545,I00545,RETROSPECTIVA,2024-12-06,0,0.0,Identificados procedimentos desnecessários
+A00547,I00547,RETROSPECTIVA,2024-11-20,2,694.05,Identificados procedimentos desnecessários
+A00549,I00549,CONCORRENTE,2024-11-23,0,0.0,Identificados procedimentos desnecessários
+A00551,I00551,RETROSPECTIVA,2024-12-16,1,307.18,Tempo de internação adequado à patologia
+A00552,I00552,RETROSPECTIVA,2024-11-20,0,0.0,Tempo de internação adequado à patologia
+A00553,I00553,RETROSPECTIVA,2024-11-12,2,1366.03,Tempo de internação adequado à patologia
+A00555,I00555,RETROSPECTIVA,2024-12-02,2,2686.9700000000003,Identificados procedimentos desnecessários
+A00556,I00556,CONCORRENTE,2024-11-06,0,0.0,Identificados procedimentos desnecessários
+A00558,I00558,CONCORRENTE,2024-11-19,0,0.0,Internação dentro dos parâmetros esperados
+A00559,I00559,RETROSPECTIVA,2024-12-17,1,1283.15,Internação dentro dos parâmetros esperados
+A00561,I00561,RETROSPECTIVA,2024-12-24,1,274.88,Identificados procedimentos desnecessários
+A00562,I00562,RETROSPECTIVA,2024-12-08,1,45.64,Identificados procedimentos desnecessários
+A00563,I00563,CONCORRENTE,2024-12-29,0,0.0,Identificados procedimentos desnecessários
+A00565,I00565,CONCORRENTE,2024-11-12,1,189.93,Internação dentro dos parâmetros esperados
+A00566,I00566,RETROSPECTIVA,2024-11-10,1,548.68,Necessária revisão de alguns procedimentos
+A00567,I00567,CONCORRENTE,2024-11-18,3,2938.7700000000004,Identificados procedimentos desnecessários
+A00568,I00568,CONCORRENTE,2024-12-14,0,0.0,Internação dentro dos parâmetros esperados
+A00573,I00573,CONCORRENTE,2024-12-08,2,1990.4,Identificados procedimentos desnecessários
+A00577,I00577,RETROSPECTIVA,2024-12-29,0,0.0,Tempo de internação adequado à patologia
+A00579,I00579,RETROSPECTIVA,2024-12-22,2,2752.7200000000003,Tempo de internação adequado à patologia
+A00580,I00580,CONCORRENTE,2024-11-20,1,550.65,Internação dentro dos parâmetros esperados
+A00581,I00581,RETROSPECTIVA,2024-11-11,0,0.0,Internação dentro dos parâmetros esperados
+A00582,I00582,CONCORRENTE,2024-12-21,1,52.86,Internação dentro dos parâmetros esperados
+A00583,I00583,RETROSPECTIVA,2024-11-27,1,168.0,Internação dentro dos parâmetros esperados
+A00584,I00584,RETROSPECTIVA,2024-12-25,0,0.0,Internação dentro dos parâmetros esperados
+A00585,I00585,RETROSPECTIVA,2024-12-23,0,0.0,Necessária revisão de alguns procedimentos
+A00586,I00586,CONCORRENTE,2024-12-22,2,3009.51,Internação dentro dos parâmetros esperados
+A00587,I00587,CONCORRENTE,2024-11-07,2,1717.6899999999998,Identificados procedimentos desnecessários
+A00588,I00588,RETROSPECTIVA,2024-11-10,0,0.0,Identificados procedimentos desnecessários
+A00590,I00590,CONCORRENTE,2024-11-16,0,0.0,Tempo de internação adequado à patologia
+A00591,I00591,CONCORRENTE,2025-01-06,4,5547.97,Tempo de internação adequado à patologia
+A00593,I00593,RETROSPECTIVA,2024-11-26,2,466.7,Internação dentro dos parâmetros esperados
+A00594,I00594,CONCORRENTE,2024-12-31,3,2005.94,Necessária revisão de alguns procedimentos
+A00597,I00597,CONCORRENTE,2024-11-09,1,961.96,Necessária revisão de alguns procedimentos
+A00598,I00598,RETROSPECTIVA,2024-12-11,2,672.96,Tempo de internação adequado à patologia
+A00600,I00600,RETROSPECTIVA,2024-12-18,1,636.24,Necessária revisão de alguns procedimentos
+A00601,I00601,CONCORRENTE,2024-12-29,2,3427.66,Identificados procedimentos desnecessários
+A00603,I00603,CONCORRENTE,2024-12-12,1,386.32,Tempo de internação adequado à patologia
+A00606,I00606,RETROSPECTIVA,2024-12-11,3,1221.0700000000002,Necessária revisão de alguns procedimentos
+A00607,I00607,CONCORRENTE,2024-12-01,4,2712.76,Tempo de internação adequado à patologia
+A00609,I00609,CONCORRENTE,2024-12-28,4,2464.6,Tempo de internação adequado à patologia
+A00610,I00610,CONCORRENTE,2024-11-30,1,974.97,Necessária revisão de alguns procedimentos
+A00611,I00611,CONCORRENTE,2024-12-09,2,943.3599999999999,Identificados procedimentos desnecessários
+A00612,I00612,CONCORRENTE,2024-12-26,1,469.84,Tempo de internação adequado à patologia
+A00613,I00613,CONCORRENTE,2024-12-09,0,0.0,Tempo de internação adequado à patologia
+A00614,I00614,RETROSPECTIVA,2024-12-20,1,82.92,Internação dentro dos parâmetros esperados
+A00617,I00617,RETROSPECTIVA,2024-12-09,3,2462.59,Tempo de internação adequado à patologia
+A00619,I00619,RETROSPECTIVA,2024-12-19,1,1355.6100000000001,Identificados procedimentos desnecessários
+A00622,I00622,RETROSPECTIVA,2024-12-08,3,2437.48,Internação dentro dos parâmetros esperados
+A00623,I00623,CONCORRENTE,2024-12-03,2,1905.54,Necessária revisão de alguns procedimentos
+A00624,I00624,RETROSPECTIVA,2024-11-11,0,0.0,Tempo de internação adequado à patologia
+A00626,I00626,CONCORRENTE,2024-11-20,1,144.78,Internação dentro dos parâmetros esperados
+A00627,I00627,CONCORRENTE,2024-12-16,1,1266.45,Internação dentro dos parâmetros esperados
+A00630,I00630,RETROSPECTIVA,2024-11-18,2,2478.59,Necessária revisão de alguns procedimentos
+A00631,I00631,CONCORRENTE,2024-12-09,1,1350.4499999999998,Necessária revisão de alguns procedimentos
+A00634,I00634,CONCORRENTE,2024-12-09,2,2209.1,Identificados procedimentos desnecessários
+A00635,I00635,CONCORRENTE,2024-12-08,1,1303.0500000000002,Internação dentro dos parâmetros esperados
+A00636,I00636,CONCORRENTE,2024-12-29,1,1385.5500000000002,Necessária revisão de alguns procedimentos
+A00638,I00638,CONCORRENTE,2024-12-20,1,453.12,Internação dentro dos parâmetros esperados
+A00639,I00639,CONCORRENTE,2024-11-22,2,3026.9399999999996,Internação dentro dos parâmetros esperados
+A00640,I00640,CONCORRENTE,2024-11-27,3,1864.85,Necessária revisão de alguns procedimentos
+A00643,I00643,RETROSPECTIVA,2024-12-21,0,0.0,Tempo de internação adequado à patologia
+A00644,I00644,RETROSPECTIVA,2024-11-06,1,778.52,Identificados procedimentos desnecessários
+A00647,I00647,CONCORRENTE,2025-01-03,0,0.0,Internação dentro dos parâmetros esperados
+A00648,I00648,CONCORRENTE,2024-12-24,1,406.59000000000003,Identificados procedimentos desnecessários
+A00650,I00650,CONCORRENTE,2024-11-12,1,440.58,Identificados procedimentos desnecessários
+A00651,I00651,RETROSPECTIVA,2024-12-23,1,1300.16,Identificados procedimentos desnecessários
+A00652,I00652,CONCORRENTE,2025-01-03,1,342.6,Identificados procedimentos desnecessários
+A00653,I00653,CONCORRENTE,2024-11-16,1,306.4,Necessária revisão de alguns procedimentos
+A00654,I00654,CONCORRENTE,2024-11-08,2,2458.83,Tempo de internação adequado à patologia
+A00657,I00657,CONCORRENTE,2025-01-03,0,0.0,Internação dentro dos parâmetros esperados
+A00659,I00659,RETROSPECTIVA,2024-12-13,0,0.0,Necessária revisão de alguns procedimentos
+A00663,I00663,RETROSPECTIVA,2024-12-17,1,819.04,Internação dentro dos parâmetros esperados
+A00664,I00664,CONCORRENTE,2025-01-02,2,2727.75,Internação dentro dos parâmetros esperados
+A00665,I00665,CONCORRENTE,2024-12-10,1,368.65000000000003,Internação dentro dos parâmetros esperados
+A00667,I00667,RETROSPECTIVA,2024-11-16,2,2245.52,Internação dentro dos parâmetros esperados
+A00671,I00671,CONCORRENTE,2024-11-16,2,1690.26,Tempo de internação adequado à patologia
+A00673,I00673,RETROSPECTIVA,2024-12-23,2,2260.88,Tempo de internação adequado à patologia
+A00674,I00674,RETROSPECTIVA,2024-12-31,1,397.11,Identificados procedimentos desnecessários
+A00675,I00675,RETROSPECTIVA,2024-11-22,1,417.39,Necessária revisão de alguns procedimentos
+A00676,I00676,CONCORRENTE,2024-11-23,2,1759.6,Internação dentro dos parâmetros esperados
+A00677,I00677,CONCORRENTE,2024-12-12,2,2030.04,Necessária revisão de alguns procedimentos
+A00679,I00679,CONCORRENTE,2024-12-22,2,700.1600000000001,Identificados procedimentos desnecessários
+A00680,I00680,CONCORRENTE,2024-12-29,1,680.24,Necessária revisão de alguns procedimentos
+A00681,I00681,CONCORRENTE,2024-12-19,1,1494.4499999999998,Identificados procedimentos desnecessários
+A00684,I00684,CONCORRENTE,2024-12-29,0,0.0,Necessária revisão de alguns procedimentos
+A00685,I00685,RETROSPECTIVA,2024-11-15,1,539.6,Tempo de internação adequado à patologia
+A00686,I00686,RETROSPECTIVA,2024-12-21,0,0.0,Identificados procedimentos desnecessários
+A00688,I00688,CONCORRENTE,2025-01-02,1,223.7,Internação dentro dos parâmetros esperados
+A00690,I00690,CONCORRENTE,2024-12-02,0,0.0,Tempo de internação adequado à patologia
+A00692,I00692,CONCORRENTE,2024-11-13,0,0.0,Necessária revisão de alguns procedimentos
+A00693,I00693,RETROSPECTIVA,2024-11-24,1,1270.15,Internação dentro dos parâmetros esperados
+A00695,I00695,RETROSPECTIVA,2024-12-21,0,0.0,Tempo de internação adequado à patologia
+A00696,I00696,CONCORRENTE,2024-12-24,0,0.0,Identificados procedimentos desnecessários
+A00699,I00699,RETROSPECTIVA,2024-12-09,4,2911.27,Tempo de internação adequado à patologia
+A00701,I00701,RETROSPECTIVA,2024-12-09,0,0.0,Identificados procedimentos desnecessários
+A00702,I00702,CONCORRENTE,2024-12-17,0,0.0,Identificados procedimentos desnecessários
+A00703,I00703,RETROSPECTIVA,2024-12-29,2,4078.1000000000004,Tempo de internação adequado à patologia
+A00704,I00704,RETROSPECTIVA,2024-11-08,3,2747.83,Internação dentro dos parâmetros esperados
+A00705,I00705,RETROSPECTIVA,2024-12-28,1,638.25,Internação dentro dos parâmetros esperados
+A00706,I00706,CONCORRENTE,2024-12-26,2,2489.49,Internação dentro dos parâmetros esperados
+A00710,I00710,CONCORRENTE,2024-12-25,2,1186.8300000000002,Tempo de internação adequado à patologia
+A00711,I00711,CONCORRENTE,2024-11-29,0,0.0,Tempo de internação adequado à patologia
+A00712,I00712,RETROSPECTIVA,2024-12-05,0,0.0,Necessária revisão de alguns procedimentos
+A00714,I00714,RETROSPECTIVA,2024-11-20,1,232.08,Identificados procedimentos desnecessários
+A00715,I00715,CONCORRENTE,2024-12-19,0,0.0,Tempo de internação adequado à patologia
+A00717,I00717,RETROSPECTIVA,2024-12-26,0,0.0,Necessária revisão de alguns procedimentos
+A00718,I00718,CONCORRENTE,2024-12-03,1,2017.45,Internação dentro dos parâmetros esperados
+A00719,I00719,CONCORRENTE,2024-12-03,1,878.1600000000001,Identificados procedimentos desnecessários
+A00723,I00723,CONCORRENTE,2024-11-20,0,0.0,Tempo de internação adequado à patologia
+A00724,I00724,RETROSPECTIVA,2024-12-11,0,0.0,Internação dentro dos parâmetros esperados
+A00725,I00725,CONCORRENTE,2024-12-17,0,0.0,Tempo de internação adequado à patologia
+A00729,I00729,RETROSPECTIVA,2024-12-07,0,0.0,Internação dentro dos parâmetros esperados
+A00730,I00730,CONCORRENTE,2024-11-20,0,0.0,Identificados procedimentos desnecessários
+A00731,I00731,RETROSPECTIVA,2024-11-12,0,0.0,Internação dentro dos parâmetros esperados
+A00732,I00732,RETROSPECTIVA,2024-12-13,2,680.9300000000001,Internação dentro dos parâmetros esperados
+A00734,I00734,RETROSPECTIVA,2024-12-18,3,1087.43,Necessária revisão de alguns procedimentos
+A00738,I00738,RETROSPECTIVA,2024-11-16,0,0.0,Internação dentro dos parâmetros esperados
+A00741,I00741,RETROSPECTIVA,2024-11-20,0,0.0,Tempo de internação adequado à patologia
+A00742,I00742,CONCORRENTE,2024-12-01,1,945.4499999999999,Necessária revisão de alguns procedimentos
+A00743,I00743,CONCORRENTE,2024-11-04,1,337.84999999999997,Tempo de internação adequado à patologia
+A00744,I00744,CONCORRENTE,2024-12-17,3,3722.0199999999995,Identificados procedimentos desnecessários
+A00745,I00745,CONCORRENTE,2024-11-20,1,48.39,Necessária revisão de alguns procedimentos
+A00748,I00748,CONCORRENTE,2024-11-13,0,0.0,Tempo de internação adequado à patologia
+A00749,I00749,CONCORRENTE,2024-11-08,2,1543.01,Tempo de internação adequado à patologia
+A00750,I00750,RETROSPECTIVA,2024-12-16,2,1830.55,Tempo de internação adequado à patologia
+A00752,I00752,CONCORRENTE,2024-12-19,3,4859.699999999999,Internação dentro dos parâmetros esperados
+A00756,I00756,CONCORRENTE,2024-11-09,1,1331.52,Internação dentro dos parâmetros esperados
+A00757,I00757,RETROSPECTIVA,2024-11-29,0,0.0,Tempo de internação adequado à patologia
+A00758,I00758,RETROSPECTIVA,2024-12-29,4,2071.14,Tempo de internação adequado à patologia
+A00759,I00759,CONCORRENTE,2024-12-10,0,0.0,Necessária revisão de alguns procedimentos
+A00761,I00761,CONCORRENTE,2024-12-14,0,0.0,Tempo de internação adequado à patologia
+A00762,I00762,RETROSPECTIVA,2024-12-29,0,0.0,Internação dentro dos parâmetros esperados
+A00763,I00763,CONCORRENTE,2024-12-17,1,797.3000000000001,Tempo de internação adequado à patologia
+A00764,I00764,RETROSPECTIVA,2024-12-13,2,2702.39,Identificados procedimentos desnecessários
+A00766,I00766,CONCORRENTE,2024-11-10,1,121.55,Internação dentro dos parâmetros esperados
+A00768,I00768,CONCORRENTE,2024-11-10,0,0.0,Tempo de internação adequado à patologia
+A00770,I00770,RETROSPECTIVA,2024-12-27,4,3318.3600000000006,Tempo de internação adequado à patologia
+A00773,I00773,RETROSPECTIVA,2024-12-22,1,1368.75,Tempo de internação adequado à patologia
+A00777,I00777,RETROSPECTIVA,2025-01-08,1,395.62,Identificados procedimentos desnecessários
+A00778,I00778,RETROSPECTIVA,2024-11-17,3,2787.08,Necessária revisão de alguns procedimentos
+A00779,I00779,RETROSPECTIVA,2024-12-16,0,0.0,Internação dentro dos parâmetros esperados
+A00780,I00780,CONCORRENTE,2024-12-23,1,229.01,Tempo de internação adequado à patologia
+A00781,I00781,RETROSPECTIVA,2024-11-22,2,1575.77,Necessária revisão de alguns procedimentos
+A00782,I00782,RETROSPECTIVA,2024-12-05,0,0.0,Identificados procedimentos desnecessários
+A00786,I00786,CONCORRENTE,2024-12-25,4,2811.4300000000003,Internação dentro dos parâmetros esperados
+A00788,I00788,RETROSPECTIVA,2024-12-14,0,0.0,Necessária revisão de alguns procedimentos
+A00789,I00789,CONCORRENTE,2024-11-27,2,1186.16,Internação dentro dos parâmetros esperados
+A00791,I00791,RETROSPECTIVA,2024-11-29,0,0.0,Tempo de internação adequado à patologia
+A00793,I00793,CONCORRENTE,2025-01-05,1,338.16,Internação dentro dos parâmetros esperados
+A00794,I00794,CONCORRENTE,2024-12-30,1,783.14,Tempo de internação adequado à patologia
+A00795,I00795,RETROSPECTIVA,2024-12-07,0,0.0,Tempo de internação adequado à patologia
+A00796,I00796,CONCORRENTE,2024-12-07,0,0.0,Internação dentro dos parâmetros esperados
+A00797,I00797,CONCORRENTE,2024-12-02,1,1178.5500000000002,Tempo de internação adequado à patologia
+A00798,I00798,RETROSPECTIVA,2024-11-21,3,1990.1000000000001,Necessária revisão de alguns procedimentos
+A00799,I00799,RETROSPECTIVA,2024-11-15,1,215.58,Identificados procedimentos desnecessários
+A00800,I00800,CONCORRENTE,2024-11-16,0,0.0,Identificados procedimentos desnecessários
+A00803,I00803,CONCORRENTE,2025-01-06,2,2395.65,Necessária revisão de alguns procedimentos
+A00804,I00804,CONCORRENTE,2024-12-05,2,1948.92,Identificados procedimentos desnecessários
+A00807,I00807,CONCORRENTE,2024-11-28,0,0.0,Necessária revisão de alguns procedimentos
+A00808,I00808,RETROSPECTIVA,2024-12-05,2,1489.04,Tempo de internação adequado à patologia
+A00811,I00811,CONCORRENTE,2024-11-17,4,2771.58,Necessária revisão de alguns procedimentos
+A00812,I00812,RETROSPECTIVA,2024-12-23,1,297.0,Necessária revisão de alguns procedimentos
+A00813,I00813,RETROSPECTIVA,2024-12-19,0,0.0,Internação dentro dos parâmetros esperados
+A00817,I00817,RETROSPECTIVA,2024-12-18,2,650.42,Tempo de internação adequado à patologia
+A00818,I00818,RETROSPECTIVA,2024-12-24,0,0.0,Necessária revisão de alguns procedimentos
+A00819,I00819,RETROSPECTIVA,2024-11-26,2,856.3799999999999,Tempo de internação adequado à patologia
+A00823,I00823,CONCORRENTE,2024-12-02,1,762.06,Necessária revisão de alguns procedimentos
+A00824,I00824,CONCORRENTE,2024-11-04,0,0.0,Internação dentro dos parâmetros esperados
+A00825,I00825,CONCORRENTE,2024-11-07,1,508.42,Identificados procedimentos desnecessários
+A00826,I00826,CONCORRENTE,2024-11-17,1,1907.3,Tempo de internação adequado à patologia
+A00827,I00827,RETROSPECTIVA,2024-11-16,4,2957.05,Necessária revisão de alguns procedimentos
+A00829,I00829,CONCORRENTE,2024-12-12,3,1586.2399999999998,Necessária revisão de alguns procedimentos
+A00830,I00830,RETROSPECTIVA,2024-12-19,1,612.42,Identificados procedimentos desnecessários
+A00831,I00831,CONCORRENTE,2024-11-18,1,1289.16,Tempo de internação adequado à patologia
+A00832,I00832,RETROSPECTIVA,2024-11-27,2,240.2,Internação dentro dos parâmetros esperados
+A00833,I00833,RETROSPECTIVA,2024-12-16,1,1137.55,Necessária revisão de alguns procedimentos
+A00839,I00839,RETROSPECTIVA,2024-12-26,2,2507.62,Tempo de internação adequado à patologia
+A00841,I00841,CONCORRENTE,2024-11-05,2,3927.84,Identificados procedimentos desnecessários
+A00842,I00842,RETROSPECTIVA,2024-11-08,1,822.21,Tempo de internação adequado à patologia
+A00843,I00843,CONCORRENTE,2024-12-06,2,1165.8600000000001,Identificados procedimentos desnecessários
+A00844,I00844,CONCORRENTE,2024-11-12,2,312.99,Internação dentro dos parâmetros esperados
+A00845,I00845,CONCORRENTE,2024-12-14,0,0.0,Necessária revisão de alguns procedimentos
+A00848,I00848,RETROSPECTIVA,2024-11-29,0,0.0,Necessária revisão de alguns procedimentos
+A00849,I00849,CONCORRENTE,2024-12-28,0,0.0,Necessária revisão de alguns procedimentos
+A00851,I00851,CONCORRENTE,2024-12-28,5,4595.29,Necessária revisão de alguns procedimentos
+A00852,I00852,CONCORRENTE,2024-11-16,2,2044.33,Identificados procedimentos desnecessários
+A00853,I00853,RETROSPECTIVA,2024-11-28,0,0.0,Identificados procedimentos desnecessários
+A00855,I00855,RETROSPECTIVA,2024-11-20,1,115.92,Necessária revisão de alguns procedimentos
+A00856,I00856,RETROSPECTIVA,2024-12-13,2,1855.62,Necessária revisão de alguns procedimentos
+A00857,I00857,RETROSPECTIVA,2024-11-07,1,645.76,Identificados procedimentos desnecessários
+A00858,I00858,CONCORRENTE,2024-12-03,1,1542.55,Internação dentro dos parâmetros esperados
+A00859,I00859,CONCORRENTE,2024-11-15,0,0.0,Necessária revisão de alguns procedimentos
+A00860,I00860,CONCORRENTE,2024-12-16,1,815.0,Necessária revisão de alguns procedimentos
+A00864,I00864,RETROSPECTIVA,2024-12-18,1,846.5,Tempo de internação adequado à patologia
+A00866,I00866,CONCORRENTE,2024-11-09,1,460.91,Identificados procedimentos desnecessários
+A00867,I00867,CONCORRENTE,2024-11-06,1,512.96,Tempo de internação adequado à patologia
+A00868,I00868,RETROSPECTIVA,2024-12-07,3,1067.33,Tempo de internação adequado à patologia
+A00869,I00869,CONCORRENTE,2024-11-12,2,1002.8199999999999,Internação dentro dos parâmetros esperados
+A00870,I00870,RETROSPECTIVA,2024-11-25,0,0.0,Tempo de internação adequado à patologia
+A00871,I00871,RETROSPECTIVA,2024-12-20,4,2026.71,Internação dentro dos parâmetros esperados
+A00872,I00872,CONCORRENTE,2024-11-08,0,0.0,Internação dentro dos parâmetros esperados
+A00873,I00873,CONCORRENTE,2024-12-11,1,113.94999999999999,Necessária revisão de alguns procedimentos
+A00874,I00874,RETROSPECTIVA,2025-01-02,1,102.51,Tempo de internação adequado à patologia
+A00876,I00876,RETROSPECTIVA,2024-11-23,0,0.0,Necessária revisão de alguns procedimentos
+A00877,I00877,CONCORRENTE,2024-12-13,0,0.0,Identificados procedimentos desnecessários
+A00879,I00879,RETROSPECTIVA,2024-12-04,3,3134.35,Internação dentro dos parâmetros esperados
+A00881,I00881,CONCORRENTE,2025-01-05,0,0.0,Necessária revisão de alguns procedimentos
+A00883,I00883,CONCORRENTE,2024-11-21,2,1168.76,Identificados procedimentos desnecessários
+A00884,I00884,CONCORRENTE,2024-11-22,2,985.52,Identificados procedimentos desnecessários
+A00885,I00885,CONCORRENTE,2024-11-14,0,0.0,Internação dentro dos parâmetros esperados
+A00888,I00888,CONCORRENTE,2024-12-21,1,1241.9,Internação dentro dos parâmetros esperados
+A00889,I00889,CONCORRENTE,2024-11-22,0,0.0,Internação dentro dos parâmetros esperados
+A00891,I00891,CONCORRENTE,2024-12-13,0,0.0,Tempo de internação adequado à patologia
+A00893,I00893,RETROSPECTIVA,2024-12-11,1,160.47,Necessária revisão de alguns procedimentos
+A00895,I00895,RETROSPECTIVA,2024-12-11,3,3106.24,Internação dentro dos parâmetros esperados
+A00899,I00899,CONCORRENTE,2024-12-26,2,3352.64,Necessária revisão de alguns procedimentos
+A00902,I00902,RETROSPECTIVA,2024-12-09,1,156.48,Tempo de internação adequado à patologia
+A00905,I00905,RETROSPECTIVA,2024-11-15,0,0.0,Internação dentro dos parâmetros esperados
+A00906,I00906,RETROSPECTIVA,2024-12-22,0,0.0,Identificados procedimentos desnecessários
+A00908,I00908,CONCORRENTE,2024-12-12,0,0.0,Necessária revisão de alguns procedimentos
+A00910,I00910,CONCORRENTE,2024-12-12,0,0.0,Tempo de internação adequado à patologia
+A00912,I00912,CONCORRENTE,2024-11-24,0,0.0,Identificados procedimentos desnecessários
+A00915,I00915,RETROSPECTIVA,2024-12-15,2,1058.95,Internação dentro dos parâmetros esperados
+A00916,I00916,RETROSPECTIVA,2024-11-18,3,3069.8,Tempo de internação adequado à patologia
+A00917,I00917,CONCORRENTE,2024-12-17,0,0.0,Necessária revisão de alguns procedimentos
+A00918,I00918,RETROSPECTIVA,2024-11-23,2,2804.79,Tempo de internação adequado à patologia
+A00919,I00919,RETROSPECTIVA,2024-11-30,0,0.0,Internação dentro dos parâmetros esperados
+A00920,I00920,CONCORRENTE,2024-11-17,0,0.0,Identificados procedimentos desnecessários
+A00925,I00925,CONCORRENTE,2024-11-25,1,171.33,Identificados procedimentos desnecessários
+A00927,I00927,RETROSPECTIVA,2024-12-17,0,0.0,Tempo de internação adequado à patologia
+A00929,I00929,RETROSPECTIVA,2024-11-10,3,2761.66,Internação dentro dos parâmetros esperados
+A00930,I00930,CONCORRENTE,2024-12-11,0,0.0,Necessária revisão de alguns procedimentos
+A00933,I00933,CONCORRENTE,2024-11-18,3,3500.0699999999997,Internação dentro dos parâmetros esperados
+A00934,I00934,CONCORRENTE,2024-11-12,3,3722.0,Internação dentro dos parâmetros esperados
+A00935,I00935,RETROSPECTIVA,2024-11-25,2,737.64,Necessária revisão de alguns procedimentos
+A00938,I00938,CONCORRENTE,2024-11-11,0,0.0,Tempo de internação adequado à patologia
+A00939,I00939,RETROSPECTIVA,2024-12-08,2,437.0,Identificados procedimentos desnecessários
+A00940,I00940,CONCORRENTE,2024-11-26,0,0.0,Tempo de internação adequado à patologia
+A00941,I00941,RETROSPECTIVA,2024-11-21,0,0.0,Identificados procedimentos desnecessários
+A00943,I00943,RETROSPECTIVA,2025-01-06,3,1858.44,Identificados procedimentos desnecessários
+A00945,I00945,RETROSPECTIVA,2024-12-04,2,1847.76,Internação dentro dos parâmetros esperados
+A00946,I00946,CONCORRENTE,2024-12-08,1,2444.4,Internação dentro dos parâmetros esperados
+A00947,I00947,CONCORRENTE,2024-12-25,0,0.0,Tempo de internação adequado à patologia
+A00950,I00950,RETROSPECTIVA,2024-11-27,3,1635.8,Tempo de internação adequado à patologia
+A00954,I00954,CONCORRENTE,2024-12-25,1,52.34,Internação dentro dos parâmetros esperados
+A00955,I00955,CONCORRENTE,2024-11-17,1,118.52,Internação dentro dos parâmetros esperados
+A00958,I00958,CONCORRENTE,2025-01-08,0,0.0,Identificados procedimentos desnecessários
+A00960,I00960,CONCORRENTE,2024-11-20,1,283.01,Necessária revisão de alguns procedimentos
+A00962,I00962,CONCORRENTE,2024-12-11,4,5854.38,Internação dentro dos parâmetros esperados
+A00963,I00963,CONCORRENTE,2024-12-28,0,0.0,Internação dentro dos parâmetros esperados
+A00965,I00965,CONCORRENTE,2024-11-09,1,851.52,Necessária revisão de alguns procedimentos
+A00966,I00966,CONCORRENTE,2025-01-03,1,1571.25,Identificados procedimentos desnecessários
+A00967,I00967,CONCORRENTE,2024-12-17,1,224.2,Internação dentro dos parâmetros esperados
+A00968,I00968,RETROSPECTIVA,2025-01-05,2,2370.04,Internação dentro dos parâmetros esperados
+A00969,I00969,CONCORRENTE,2024-12-27,0,0.0,Identificados procedimentos desnecessários
+A00970,I00970,CONCORRENTE,2024-11-27,0,0.0,Internação dentro dos parâmetros esperados
+A00972,I00972,CONCORRENTE,2024-12-24,1,1471.74,Internação dentro dos parâmetros esperados
+A00974,I00974,RETROSPECTIVA,2024-12-26,0,0.0,Necessária revisão de alguns procedimentos
+A00975,I00975,RETROSPECTIVA,2024-11-06,1,164.88,Internação dentro dos parâmetros esperados
+A00976,I00976,CONCORRENTE,2024-12-06,3,3205.0099999999998,Tempo de internação adequado à patologia
+A00977,I00977,RETROSPECTIVA,2024-12-20,3,3486.4700000000003,Necessária revisão de alguns procedimentos
+A00978,I00978,RETROSPECTIVA,2024-11-21,0,0.0,Necessária revisão de alguns procedimentos
+A00980,I00980,RETROSPECTIVA,2024-12-04,4,1035.92,Tempo de internação adequado à patologia
+A00981,I00981,RETROSPECTIVA,2024-11-05,3,1921.1800000000003,Tempo de internação adequado à patologia
+A00982,I00982,CONCORRENTE,2024-12-24,2,1086.6399999999999,Internação dentro dos parâmetros esperados
+A00983,I00983,CONCORRENTE,2024-12-31,2,1568.7,Tempo de internação adequado à patologia
+A00985,I00985,RETROSPECTIVA,2024-11-19,2,1865.8200000000002,Necessária revisão de alguns procedimentos
+A00987,I00987,RETROSPECTIVA,2024-11-14,3,3098.03,Internação dentro dos parâmetros esperados
+A00988,I00988,CONCORRENTE,2024-12-09,4,3175.5,Identificados procedimentos desnecessários
+A00990,I00990,CONCORRENTE,2024-11-11,2,1814.91,Tempo de internação adequado à patologia
+A00992,I00992,CONCORRENTE,2024-11-09,0,0.0,Identificados procedimentos desnecessários
+A00994,I00994,RETROSPECTIVA,2024-11-13,0,0.0,Identificados procedimentos desnecessários
+A00995,I00995,CONCORRENTE,2024-12-04,2,1050.42,Internação dentro dos parâmetros esperados
+A00996,I00996,RETROSPECTIVA,2024-12-28,2,1789.6399999999999,Necessária revisão de alguns procedimentos
+A00997,I00997,RETROSPECTIVA,2024-11-23,1,548.88,Tempo de internação adequado à patologia
+A00998,I00998,CONCORRENTE,2024-11-14,0,0.0,Necessária revisão de alguns procedimentos
+A01000,I01000,CONCORRENTE,2024-11-09,0,0.0,Necessária revisão de alguns procedimentos
+A01001,I01001,RETROSPECTIVA,2024-12-26,1,694.0,Tempo de internação adequado à patologia
+A01002,I01002,CONCORRENTE,2024-11-26,2,2605.4,Identificados procedimentos desnecessários
+A01003,I01003,CONCORRENTE,2024-11-25,5,4195.860000000001,Internação dentro dos parâmetros esperados
+A01004,I01004,RETROSPECTIVA,2024-12-28,2,2660.02,Tempo de internação adequado à patologia
+A01006,I01006,RETROSPECTIVA,2024-12-28,2,743.26,Tempo de internação adequado à patologia
+A01007,I01007,CONCORRENTE,2024-12-07,2,2401.0,Tempo de internação adequado à patologia
+A01008,I01008,RETROSPECTIVA,2024-12-01,1,294.84,Necessária revisão de alguns procedimentos
+A01010,I01010,RETROSPECTIVA,2024-12-14,3,2421.35,Tempo de internação adequado à patologia
+A01012,I01012,RETROSPECTIVA,2024-12-22,2,3554.05,Necessária revisão de alguns procedimentos
+A01013,I01013,CONCORRENTE,2024-11-12,5,2930.7200000000003,Identificados procedimentos desnecessários
+A01018,I01018,RETROSPECTIVA,2024-12-07,0,0.0,Internação dentro dos parâmetros esperados
+A01019,I01019,RETROSPECTIVA,2024-12-30,2,1654.75,Identificados procedimentos desnecessários
+A01020,I01020,CONCORRENTE,2024-12-29,1,362.38,Internação dentro dos parâmetros esperados
+A01023,I01023,RETROSPECTIVA,2024-11-25,0,0.0,Tempo de internação adequado à patologia
+A01025,I01025,CONCORRENTE,2024-11-17,3,3082.52,Tempo de internação adequado à patologia
+A01028,I01028,CONCORRENTE,2024-12-31,2,3335.5499999999997,Tempo de internação adequado à patologia
+A01029,I01029,RETROSPECTIVA,2024-11-15,1,1035.9,Tempo de internação adequado à patologia
+A01030,I01030,RETROSPECTIVA,2024-12-21,1,1343.25,Internação dentro dos parâmetros esperados
+A01032,I01032,CONCORRENTE,2024-11-14,1,986.32,Necessária revisão de alguns procedimentos
+A01033,I01033,CONCORRENTE,2024-11-13,2,237.91,Identificados procedimentos desnecessários
+A01034,I01034,RETROSPECTIVA,2024-11-20,1,1463.76,Internação dentro dos parâmetros esperados
+A01035,I01035,CONCORRENTE,2024-11-30,3,1034.78,Identificados procedimentos desnecessários
+A01036,I01036,CONCORRENTE,2024-12-01,0,0.0,Necessária revisão de alguns procedimentos
+A01038,I01038,CONCORRENTE,2024-11-14,1,736.88,Tempo de internação adequado à patologia
+A01039,I01039,CONCORRENTE,2024-12-28,3,1502.19,Internação dentro dos parâmetros esperados
+A01041,I01041,RETROSPECTIVA,2025-01-02,2,4182.610000000001,Internação dentro dos parâmetros esperados
+A01042,I01042,CONCORRENTE,2024-12-17,1,1982.88,Identificados procedimentos desnecessários
+A01045,I01045,CONCORRENTE,2024-11-27,1,18.87,Necessária revisão de alguns procedimentos
+A01047,I01047,CONCORRENTE,2024-12-05,2,2421.8199999999997,Identificados procedimentos desnecessários
+A01049,I01049,RETROSPECTIVA,2024-11-05,0,0.0,Tempo de internação adequado à patologia
+A01050,I01050,CONCORRENTE,2024-12-22,1,799.28,Necessária revisão de alguns procedimentos
+A01051,I01051,RETROSPECTIVA,2024-12-16,1,1173.3600000000001,Internação dentro dos parâmetros esperados
+A01052,I01052,CONCORRENTE,2024-11-24,2,2022.16,Necessária revisão de alguns procedimentos
+A01053,I01053,RETROSPECTIVA,2024-11-21,2,869.08,Internação dentro dos parâmetros esperados
+A01055,I01055,CONCORRENTE,2024-11-07,2,1021.2,Necessária revisão de alguns procedimentos
+A01056,I01056,RETROSPECTIVA,2024-11-09,2,2937.2099999999996,Tempo de internação adequado à patologia
+A01057,I01057,RETROSPECTIVA,2024-12-27,0,0.0,Tempo de internação adequado à patologia
+A01059,I01059,CONCORRENTE,2024-11-21,1,1054.12,Necessária revisão de alguns procedimentos
+A01062,I01062,CONCORRENTE,2024-12-10,0,0.0,Internação dentro dos parâmetros esperados
+A01063,I01063,CONCORRENTE,2024-11-06,0,0.0,Internação dentro dos parâmetros esperados
+A01065,I01065,CONCORRENTE,2024-11-09,0,0.0,Tempo de internação adequado à patologia
+A01066,I01066,CONCORRENTE,2024-12-23,3,1770.11,Internação dentro dos parâmetros esperados
+A01069,I01069,CONCORRENTE,2024-12-21,2,2409.6400000000003,Internação dentro dos parâmetros esperados
+A01073,I01073,RETROSPECTIVA,2024-11-18,3,1511.1,Tempo de internação adequado à patologia
+A01074,I01074,CONCORRENTE,2024-12-30,0,0.0,Internação dentro dos parâmetros esperados
+A01076,I01076,CONCORRENTE,2024-12-08,2,1852.53,Tempo de internação adequado à patologia
+A01077,I01077,RETROSPECTIVA,2024-12-24,2,1569.65,Tempo de internação adequado à patologia
+A01078,I01078,RETROSPECTIVA,2024-11-15,1,977.8,Tempo de internação adequado à patologia
+A01079,I01079,CONCORRENTE,2024-12-21,1,354.25,Internação dentro dos parâmetros esperados
+A01083,I01083,RETROSPECTIVA,2024-11-28,1,725.62,Internação dentro dos parâmetros esperados
+A01086,I01086,CONCORRENTE,2024-12-16,2,1146.73,Identificados procedimentos desnecessários
+A01087,I01087,RETROSPECTIVA,2024-11-20,0,0.0,Identificados procedimentos desnecessários
+A01088,I01088,CONCORRENTE,2024-12-25,3,2064.04,Internação dentro dos parâmetros esperados
+A01089,I01089,RETROSPECTIVA,2024-11-10,0,0.0,Identificados procedimentos desnecessários
+A01090,I01090,CONCORRENTE,2024-11-27,1,996.9,Identificados procedimentos desnecessários
+A01092,I01092,RETROSPECTIVA,2024-11-09,1,225.12,Internação dentro dos parâmetros esperados
+A01095,I01095,CONCORRENTE,2024-12-03,1,346.1,Identificados procedimentos desnecessários
+A01098,I01098,RETROSPECTIVA,2024-12-12,2,1109.68,Necessária revisão de alguns procedimentos
+A01099,I01099,CONCORRENTE,2024-11-14,1,1353.33,Internação dentro dos parâmetros esperados
+A01100,I01100,CONCORRENTE,2024-11-15,1,148.3,Tempo de internação adequado à patologia
+A01102,I01102,RETROSPECTIVA,2024-12-29,1,1440.57,Internação dentro dos parâmetros esperados
+A01107,I01107,RETROSPECTIVA,2024-12-20,1,1168.9499999999998,Internação dentro dos parâmetros esperados
+A01110,I01110,RETROSPECTIVA,2024-12-25,1,1642.6,Necessária revisão de alguns procedimentos
+A01112,I01112,CONCORRENTE,2024-12-31,2,1964.72,Internação dentro dos parâmetros esperados
+A01113,I01113,RETROSPECTIVA,2024-11-29,3,2616.14,Internação dentro dos parâmetros esperados
+A01114,I01114,CONCORRENTE,2024-12-27,1,1877.32,Internação dentro dos parâmetros esperados
+A01115,I01115,RETROSPECTIVA,2024-11-22,1,820.4100000000001,Necessária revisão de alguns procedimentos
+A01117,I01117,RETROSPECTIVA,2024-11-26,2,3170.6400000000003,Internação dentro dos parâmetros esperados
+A01119,I01119,RETROSPECTIVA,2024-11-04,1,451.88,Necessária revisão de alguns procedimentos
+A01121,I01121,CONCORRENTE,2024-12-17,2,1483.26,Internação dentro dos parâmetros esperados
+A01122,I01122,CONCORRENTE,2024-11-25,1,1904.12,Tempo de internação adequado à patologia
+A01124,I01124,RETROSPECTIVA,2024-12-29,0,0.0,Tempo de internação adequado à patologia
+A01128,I01128,CONCORRENTE,2024-12-21,1,1333.45,Necessária revisão de alguns procedimentos
+A01130,I01130,CONCORRENTE,2024-12-15,3,1643.78,Identificados procedimentos desnecessários
+A01131,I01131,CONCORRENTE,2024-12-31,1,284.88,Identificados procedimentos desnecessários
+A01132,I01132,RETROSPECTIVA,2024-11-25,2,2436.25,Identificados procedimentos desnecessários
+A01133,I01133,RETROSPECTIVA,2024-12-22,3,1659.7599999999998,Tempo de internação adequado à patologia
+A01134,I01134,RETROSPECTIVA,2024-11-18,3,3073.77,Necessária revisão de alguns procedimentos
+A01135,I01135,CONCORRENTE,2024-12-29,1,915.0,Tempo de internação adequado à patologia
+A01136,I01136,CONCORRENTE,2024-12-02,3,2993.3,Necessária revisão de alguns procedimentos
+A01137,I01137,CONCORRENTE,2024-11-08,1,1447.47,Identificados procedimentos desnecessários
+A01139,I01139,CONCORRENTE,2024-12-31,1,2301.7,Internação dentro dos parâmetros esperados
+A01142,I01142,RETROSPECTIVA,2024-12-12,3,678.9300000000001,Internação dentro dos parâmetros esperados
+A01143,I01143,CONCORRENTE,2024-11-24,2,2497.8100000000004,Tempo de internação adequado à patologia
+A01144,I01144,RETROSPECTIVA,2024-11-22,1,107.9,Identificados procedimentos desnecessários
+A01145,I01145,CONCORRENTE,2024-11-16,1,1208.48,Necessária revisão de alguns procedimentos
+A01146,I01146,CONCORRENTE,2024-12-19,1,930.27,Identificados procedimentos desnecessários
+A01147,I01147,CONCORRENTE,2024-11-18,0,0.0,Necessária revisão de alguns procedimentos
+A01153,I01153,RETROSPECTIVA,2024-11-23,3,743.8299999999999,Tempo de internação adequado à patologia
+A01155,I01155,RETROSPECTIVA,2025-01-05,1,267.3,Necessária revisão de alguns procedimentos
+A01157,I01157,CONCORRENTE,2025-01-09,2,2479.5499999999997,Internação dentro dos parâmetros esperados
+A01158,I01158,CONCORRENTE,2024-12-29,0,0.0,Identificados procedimentos desnecessários
+A01159,I01159,RETROSPECTIVA,2024-11-30,2,1519.03,Tempo de internação adequado à patologia
+A01160,I01160,CONCORRENTE,2024-11-14,1,90.85,Necessária revisão de alguns procedimentos
+A01161,I01161,RETROSPECTIVA,2025-01-05,2,2362.95,Tempo de internação adequado à patologia
+A01162,I01162,CONCORRENTE,2024-11-22,0,0.0,Identificados procedimentos desnecessários
+A01163,I01163,RETROSPECTIVA,2024-11-08,2,3067.82,Tempo de internação adequado à patologia
+A01164,I01164,CONCORRENTE,2024-12-20,2,232.57,Tempo de internação adequado à patologia
+A01165,I01165,RETROSPECTIVA,2025-01-06,2,1139.19,Necessária revisão de alguns procedimentos
+A01166,I01166,RETROSPECTIVA,2024-12-14,0,0.0,Necessária revisão de alguns procedimentos
+A01167,I01167,RETROSPECTIVA,2024-11-15,0,0.0,Identificados procedimentos desnecessários
+A01170,I01170,CONCORRENTE,2024-11-30,0,0.0,Internação dentro dos parâmetros esperados
+A01171,I01171,RETROSPECTIVA,2024-11-28,0,0.0,Tempo de internação adequado à patologia
+A01172,I01172,RETROSPECTIVA,2024-11-25,2,878.5699999999999,Internação dentro dos parâmetros esperados
+A01175,I01175,RETROSPECTIVA,2024-11-21,2,1284.5500000000002,Necessária revisão de alguns procedimentos
+A01176,I01176,RETROSPECTIVA,2024-12-25,1,486.59999999999997,Internação dentro dos parâmetros esperados
+A01180,I01180,CONCORRENTE,2024-11-22,1,1005.36,Necessária revisão de alguns procedimentos
+A01181,I01181,RETROSPECTIVA,2024-12-07,1,398.72,Internação dentro dos parâmetros esperados
+A01183,I01183,CONCORRENTE,2024-11-15,1,717.1500000000001,Identificados procedimentos desnecessários
+A01184,I01184,RETROSPECTIVA,2025-01-02,3,2766.38,Tempo de internação adequado à patologia
+A01185,I01185,CONCORRENTE,2024-12-27,2,701.29,Tempo de internação adequado à patologia
+A01186,I01186,RETROSPECTIVA,2024-11-08,0,0.0,Identificados procedimentos desnecessários
+A01187,I01187,CONCORRENTE,2024-12-07,3,2030.4900000000002,Internação dentro dos parâmetros esperados
+A01191,I01191,RETROSPECTIVA,2024-12-03,1,950.76,Identificados procedimentos desnecessários
+A01192,I01192,RETROSPECTIVA,2024-11-19,3,2300.9,Tempo de internação adequado à patologia
+A01193,I01193,RETROSPECTIVA,2024-12-19,1,1230.64,Internação dentro dos parâmetros esperados
+A01194,I01194,RETROSPECTIVA,2024-12-23,1,1242.16,Internação dentro dos parâmetros esperados
+A01195,I01195,RETROSPECTIVA,2024-11-16,1,1264.8600000000001,Tempo de internação adequado à patologia
+A01196,I01196,RETROSPECTIVA,2025-01-01,0,0.0,Necessária revisão de alguns procedimentos
+A01198,I01198,RETROSPECTIVA,2024-11-12,1,844.1500000000001,Identificados procedimentos desnecessários
+A01201,I01201,CONCORRENTE,2024-12-25,1,742.08,Internação dentro dos parâmetros esperados
+A01202,I01202,RETROSPECTIVA,2024-11-12,0,0.0,Internação dentro dos parâmetros esperados
+A01203,I01203,RETROSPECTIVA,2024-12-05,2,561.0,Necessária revisão de alguns procedimentos
+A01204,I01204,CONCORRENTE,2024-11-28,2,474.09000000000003,Identificados procedimentos desnecessários
+A01207,I01207,RETROSPECTIVA,2024-12-15,0,0.0,Internação dentro dos parâmetros esperados
+A01209,I01209,RETROSPECTIVA,2024-12-31,2,2730.84,Tempo de internação adequado à patologia
+A01210,I01210,CONCORRENTE,2024-11-15,1,437.35,Identificados procedimentos desnecessários
+A01212,I01212,CONCORRENTE,2024-11-06,0,0.0,Necessária revisão de alguns procedimentos
+A01216,I01216,CONCORRENTE,2024-12-02,0,0.0,Tempo de internação adequado à patologia
+A01217,I01217,RETROSPECTIVA,2024-12-03,1,2229.3,Internação dentro dos parâmetros esperados
+A01218,I01218,RETROSPECTIVA,2024-12-28,2,1343.24,Necessária revisão de alguns procedimentos
+A01219,I01219,CONCORRENTE,2024-12-19,2,2419.74,Necessária revisão de alguns procedimentos
+A01220,I01220,RETROSPECTIVA,2024-11-08,1,874.6,Internação dentro dos parâmetros esperados
+A01223,I01223,RETROSPECTIVA,2024-12-10,3,2140.1899999999996,Necessária revisão de alguns procedimentos
+A01225,I01225,CONCORRENTE,2024-11-19,5,4472.84,Tempo de internação adequado à patologia
+A01226,I01226,RETROSPECTIVA,2024-11-16,0,0.0,Necessária revisão de alguns procedimentos
+A01227,I01227,CONCORRENTE,2024-11-09,0,0.0,Necessária revisão de alguns procedimentos
+A01228,I01228,CONCORRENTE,2024-12-20,2,1915.85,Identificados procedimentos desnecessários
+A01229,I01229,RETROSPECTIVA,2024-12-21,1,147.32,Tempo de internação adequado à patologia
+A01231,I01231,RETROSPECTIVA,2024-11-24,1,106.94,Identificados procedimentos desnecessários
+A01237,I01237,RETROSPECTIVA,2024-12-12,1,2481.9,Identificados procedimentos desnecessários
+A01238,I01238,RETROSPECTIVA,2024-12-20,3,884.05,Tempo de internação adequado à patologia
+A01239,I01239,CONCORRENTE,2024-12-10,1,489.43,Identificados procedimentos desnecessários
+A01242,I01242,CONCORRENTE,2024-11-03,0,0.0,Internação dentro dos parâmetros esperados
+A01243,I01243,RETROSPECTIVA,2024-11-24,2,558.95,Necessária revisão de alguns procedimentos
+A01244,I01244,CONCORRENTE,2024-12-24,2,3409.8599999999997,Internação dentro dos parâmetros esperados
+A01245,I01245,RETROSPECTIVA,2024-11-12,1,482.36,Internação dentro dos parâmetros esperados
+A01246,I01246,CONCORRENTE,2024-12-10,1,1999.6,Tempo de internação adequado à patologia
+A01247,I01247,RETROSPECTIVA,2024-12-10,2,1932.9600000000003,Identificados procedimentos desnecessários
+A01250,I01250,RETROSPECTIVA,2024-11-05,4,4790.04,Necessária revisão de alguns procedimentos
+A01252,I01252,CONCORRENTE,2024-12-18,1,875.97,Internação dentro dos parâmetros esperados
+A01253,I01253,CONCORRENTE,2024-11-20,1,1852.8999999999999,Identificados procedimentos desnecessários
+A01255,I01255,RETROSPECTIVA,2024-11-20,0,0.0,Necessária revisão de alguns procedimentos
+A01257,I01257,CONCORRENTE,2024-12-02,1,437.08,Necessária revisão de alguns procedimentos
+A01258,I01258,RETROSPECTIVA,2024-12-12,1,861.64,Tempo de internação adequado à patologia
+A01259,I01259,RETROSPECTIVA,2024-12-01,2,1606.1000000000001,Internação dentro dos parâmetros esperados
+A01260,I01260,CONCORRENTE,2024-12-07,2,704.82,Internação dentro dos parâmetros esperados
+A01261,I01261,CONCORRENTE,2024-12-01,2,1734.56,Internação dentro dos parâmetros esperados
+A01264,I01264,CONCORRENTE,2024-12-31,1,22.06,Identificados procedimentos desnecessários
+A01266,I01266,CONCORRENTE,2024-11-18,3,2211.86,Tempo de internação adequado à patologia
+A01267,I01267,RETROSPECTIVA,2024-12-04,3,2175.78,Tempo de internação adequado à patologia
+A01268,I01268,CONCORRENTE,2024-12-18,1,1748.36,Tempo de internação adequado à patologia
+A01269,I01269,CONCORRENTE,2024-11-17,3,1466.92,Tempo de internação adequado à patologia
+A01271,I01271,RETROSPECTIVA,2024-12-14,2,1502.21,Internação dentro dos parâmetros esperados
+A01272,I01272,RETROSPECTIVA,2024-12-02,1,1963.95,Tempo de internação adequado à patologia
+A01275,I01275,CONCORRENTE,2024-12-25,1,199.32,Internação dentro dos parâmetros esperados
+A01277,I01277,CONCORRENTE,2024-12-04,0,0.0,Internação dentro dos parâmetros esperados
+A01278,I01278,CONCORRENTE,2024-12-07,2,1155.32,Identificados procedimentos desnecessários
+A01279,I01279,CONCORRENTE,2024-11-28,0,0.0,Internação dentro dos parâmetros esperados
+A01282,I01282,RETROSPECTIVA,2024-12-11,0,0.0,Identificados procedimentos desnecessários
+A01289,I01289,CONCORRENTE,2024-12-17,2,2098.27,Internação dentro dos parâmetros esperados
+A01290,I01290,CONCORRENTE,2024-11-26,2,1470.38,Internação dentro dos parâmetros esperados
+A01292,I01292,RETROSPECTIVA,2024-12-06,0,0.0,Identificados procedimentos desnecessários
+A01293,I01293,CONCORRENTE,2024-12-11,2,3628.8999999999996,Tempo de internação adequado à patologia
+A01294,I01294,CONCORRENTE,2024-11-06,1,1503.5,Identificados procedimentos desnecessários
+A01295,I01295,RETROSPECTIVA,2024-12-05,0,0.0,Tempo de internação adequado à patologia
+A01296,I01296,CONCORRENTE,2024-12-28,1,1620.28,Necessária revisão de alguns procedimentos
+A01298,I01298,RETROSPECTIVA,2024-12-13,3,3324.3999999999996,Identificados procedimentos desnecessários
+A01299,I01299,RETROSPECTIVA,2024-11-17,0,0.0,Identificados procedimentos desnecessários
+A01301,I01301,RETROSPECTIVA,2024-11-18,0,0.0,Tempo de internação adequado à patologia
+A01303,I01303,RETROSPECTIVA,2024-11-27,1,1733.8,Identificados procedimentos desnecessários
+A01304,I01304,CONCORRENTE,2024-11-22,3,2055.9,Necessária revisão de alguns procedimentos
+A01305,I01305,CONCORRENTE,2024-12-16,1,140.76,Tempo de internação adequado à patologia
+A01308,I01308,RETROSPECTIVA,2024-12-25,1,208.93,Necessária revisão de alguns procedimentos
+A01309,I01309,CONCORRENTE,2024-11-29,2,4613.700000000001,Tempo de internação adequado à patologia
+A01310,I01310,CONCORRENTE,2024-11-29,4,4841.65,Identificados procedimentos desnecessários
+A01311,I01311,RETROSPECTIVA,2024-11-11,2,621.86,Tempo de internação adequado à patologia
+A01314,I01314,RETROSPECTIVA,2024-11-30,4,5299.549999999999,Internação dentro dos parâmetros esperados
+A01316,I01316,RETROSPECTIVA,2024-11-21,2,1674.65,Tempo de internação adequado à patologia
+A01318,I01318,RETROSPECTIVA,2024-12-21,1,85.35,Internação dentro dos parâmetros esperados
+A01319,I01319,RETROSPECTIVA,2024-12-16,2,4169.75,Tempo de internação adequado à patologia
+A01321,I01321,CONCORRENTE,2024-12-11,1,304.81,Tempo de internação adequado à patologia
+A01322,I01322,RETROSPECTIVA,2024-12-19,4,5292.07,Tempo de internação adequado à patologia
+A01324,I01324,RETROSPECTIVA,2024-11-25,3,3789.18,Tempo de internação adequado à patologia
+A01327,I01327,RETROSPECTIVA,2024-12-09,2,1359.46,Internação dentro dos parâmetros esperados
+A01328,I01328,CONCORRENTE,2024-12-29,1,792.04,Internação dentro dos parâmetros esperados
+A01329,I01329,RETROSPECTIVA,2024-12-07,1,1167.18,Necessária revisão de alguns procedimentos
+A01330,I01330,CONCORRENTE,2024-12-16,2,1688.2,Necessária revisão de alguns procedimentos
+A01331,I01331,CONCORRENTE,2024-12-04,1,255.29999999999998,Identificados procedimentos desnecessários
+A01332,I01332,RETROSPECTIVA,2024-11-05,1,464.66999999999996,Identificados procedimentos desnecessários
+A01333,I01333,RETROSPECTIVA,2024-11-06,4,1556.5700000000002,Tempo de internação adequado à patologia
+A01337,I01337,CONCORRENTE,2024-12-05,1,1283.48,Tempo de internação adequado à patologia
+A01338,I01338,CONCORRENTE,2024-12-27,0,0.0,Identificados procedimentos desnecessários
+A01339,I01339,RETROSPECTIVA,2024-12-14,0,0.0,Tempo de internação adequado à patologia
+A01341,I01341,CONCORRENTE,2024-11-27,3,2252.85,Tempo de internação adequado à patologia
+A01342,I01342,CONCORRENTE,2024-12-07,0,0.0,Necessária revisão de alguns procedimentos
+A01343,I01343,CONCORRENTE,2025-01-02,1,187.07,Identificados procedimentos desnecessários
+A01344,I01344,RETROSPECTIVA,2024-12-27,0,0.0,Necessária revisão de alguns procedimentos
+A01346,I01346,RETROSPECTIVA,2024-12-04,4,3326.96,Tempo de internação adequado à patologia
+A01347,I01347,CONCORRENTE,2025-01-02,1,1606.04,Tempo de internação adequado à patologia
+A01348,I01348,CONCORRENTE,2024-12-18,2,2783.8700000000003,Necessária revisão de alguns procedimentos
+A01350,I01350,RETROSPECTIVA,2024-12-27,4,2358.95,Necessária revisão de alguns procedimentos
+A01351,I01351,RETROSPECTIVA,2024-11-19,1,75.68,Internação dentro dos parâmetros esperados
+A01352,I01352,RETROSPECTIVA,2024-12-21,1,141.23,Tempo de internação adequado à patologia
+A01354,I01354,RETROSPECTIVA,2024-11-19,1,1371.85,Identificados procedimentos desnecessários
+A01355,I01355,RETROSPECTIVA,2024-12-29,0,0.0,Necessária revisão de alguns procedimentos
+A01357,I01357,RETROSPECTIVA,2025-01-04,2,1644.42,Internação dentro dos parâmetros esperados
+A01358,I01358,CONCORRENTE,2024-12-27,2,666.1800000000001,Tempo de internação adequado à patologia
+A01359,I01359,CONCORRENTE,2024-12-26,2,609.18,Identificados procedimentos desnecessários
+A01360,I01360,RETROSPECTIVA,2024-11-19,1,1345.05,Internação dentro dos parâmetros esperados
+A01361,I01361,RETROSPECTIVA,2024-12-05,0,0.0,Tempo de internação adequado à patologia
+A01362,I01362,CONCORRENTE,2024-11-18,1,1014.16,Necessária revisão de alguns procedimentos
+A01363,I01363,RETROSPECTIVA,2024-12-20,0,0.0,Necessária revisão de alguns procedimentos
+A01365,I01365,RETROSPECTIVA,2024-11-17,3,1941.05,Internação dentro dos parâmetros esperados
+A01369,I01369,RETROSPECTIVA,2024-11-04,0,0.0,Identificados procedimentos desnecessários
+A01370,I01370,CONCORRENTE,2024-12-02,1,1328.43,Necessária revisão de alguns procedimentos
+A01371,I01371,CONCORRENTE,2024-12-12,1,774.6,Identificados procedimentos desnecessários
+A01372,I01372,CONCORRENTE,2024-11-27,1,447.56,Identificados procedimentos desnecessários
+A01373,I01373,CONCORRENTE,2024-11-23,0,0.0,Internação dentro dos parâmetros esperados
+A01374,I01374,RETROSPECTIVA,2024-12-31,3,3760.5599999999995,Tempo de internação adequado à patologia
+A01375,I01375,CONCORRENTE,2024-11-26,1,1146.36,Necessária revisão de alguns procedimentos
+A01378,I01378,CONCORRENTE,2024-11-21,1,818.74,Necessária revisão de alguns procedimentos
+A01383,I01383,CONCORRENTE,2024-11-07,1,671.66,Internação dentro dos parâmetros esperados
+A01384,I01384,RETROSPECTIVA,2025-01-02,4,2298.16,Identificados procedimentos desnecessários
+A01386,I01386,CONCORRENTE,2024-11-07,1,572.6,Internação dentro dos parâmetros esperados
+A01387,I01387,RETROSPECTIVA,2024-11-10,1,258.5,Identificados procedimentos desnecessários
+A01389,I01389,CONCORRENTE,2024-12-06,0,0.0,Tempo de internação adequado à patologia
+A01390,I01390,RETROSPECTIVA,2024-11-23,0,0.0,Internação dentro dos parâmetros esperados
+A01393,I01393,CONCORRENTE,2024-11-16,0,0.0,Tempo de internação adequado à patologia
+A01394,I01394,RETROSPECTIVA,2024-11-17,0,0.0,Tempo de internação adequado à patologia
+A01395,I01395,CONCORRENTE,2024-11-23,2,232.11,Internação dentro dos parâmetros esperados
+A01396,I01396,RETROSPECTIVA,2024-12-11,1,403.12,Tempo de internação adequado à patologia
+A01398,I01398,RETROSPECTIVA,2024-12-23,2,1780.3500000000001,Necessária revisão de alguns procedimentos
+A01400,I01400,CONCORRENTE,2024-12-15,0,0.0,Necessária revisão de alguns procedimentos
+A01401,I01401,RETROSPECTIVA,2024-12-14,1,308.66,Internação dentro dos parâmetros esperados
+A01402,I01402,CONCORRENTE,2024-12-16,1,374.76,Tempo de internação adequado à patologia
+A01403,I01403,RETROSPECTIVA,2024-11-15,0,0.0,Necessária revisão de alguns procedimentos
+A01404,I01404,RETROSPECTIVA,2024-11-21,0,0.0,Identificados procedimentos desnecessários
+A01405,I01405,CONCORRENTE,2024-12-18,1,340.32,Tempo de internação adequado à patologia
+A01408,I01408,RETROSPECTIVA,2024-11-28,3,3914.1800000000003,Tempo de internação adequado à patologia
+A01409,I01409,RETROSPECTIVA,2024-12-11,1,1205.1000000000001,Necessária revisão de alguns procedimentos
+A01411,I01411,CONCORRENTE,2024-12-31,1,1831.16,Identificados procedimentos desnecessários
+A01412,I01412,RETROSPECTIVA,2024-12-27,0,0.0,Tempo de internação adequado à patologia
+A01413,I01413,RETROSPECTIVA,2024-12-16,0,0.0,Tempo de internação adequado à patologia
+A01416,I01416,RETROSPECTIVA,2024-11-08,0,0.0,Tempo de internação adequado à patologia
+A01417,I01417,RETROSPECTIVA,2024-11-25,2,1941.05,Internação dentro dos parâmetros esperados
+A01419,I01419,CONCORRENTE,2024-12-23,0,0.0,Internação dentro dos parâmetros esperados
+A01421,I01421,CONCORRENTE,2024-11-25,0,0.0,Necessária revisão de alguns procedimentos
+A01425,I01425,CONCORRENTE,2024-12-27,2,1165.7399999999998,Identificados procedimentos desnecessários
+A01426,I01426,CONCORRENTE,2024-11-12,1,438.45000000000005,Identificados procedimentos desnecessários
+A01427,I01427,RETROSPECTIVA,2024-11-27,1,1367.34,Internação dentro dos parâmetros esperados
+A01428,I01428,CONCORRENTE,2024-12-01,3,4301.139999999999,Necessária revisão de alguns procedimentos
+A01430,I01430,RETROSPECTIVA,2024-11-19,1,1216.26,Tempo de internação adequado à patologia
+A01432,I01432,RETROSPECTIVA,2024-12-21,1,80.27,Necessária revisão de alguns procedimentos
+A01434,I01434,CONCORRENTE,2024-12-07,1,1040.48,Internação dentro dos parâmetros esperados
+A01435,I01435,RETROSPECTIVA,2024-11-11,0,0.0,Identificados procedimentos desnecessários
+A01437,I01437,RETROSPECTIVA,2024-12-10,2,1548.5500000000002,Necessária revisão de alguns procedimentos
+A01438,I01438,RETROSPECTIVA,2024-12-29,1,366.22,Internação dentro dos parâmetros esperados
+A01439,I01439,RETROSPECTIVA,2024-11-05,2,1431.78,Identificados procedimentos desnecessários
+A01441,I01441,RETROSPECTIVA,2024-12-13,3,2786.85,Identificados procedimentos desnecessários
+A01443,I01443,CONCORRENTE,2024-11-29,2,1132.7,Tempo de internação adequado à patologia
+A01446,I01446,RETROSPECTIVA,2025-01-05,2,750.4300000000001,Identificados procedimentos desnecessários
+A01448,I01448,CONCORRENTE,2024-12-14,1,309.75,Necessária revisão de alguns procedimentos
+A01450,I01450,CONCORRENTE,2024-11-12,1,1695.72,Identificados procedimentos desnecessários
+A01451,I01451,RETROSPECTIVA,2025-01-01,1,440.06,Identificados procedimentos desnecessários
+A01452,I01452,RETROSPECTIVA,2024-12-28,1,225.54,Identificados procedimentos desnecessários
+A01453,I01453,RETROSPECTIVA,2024-11-24,1,476.0,Internação dentro dos parâmetros esperados
+A01455,I01455,CONCORRENTE,2024-12-03,0,0.0,Internação dentro dos parâmetros esperados
+A01456,I01456,CONCORRENTE,2024-12-31,2,621.73,Tempo de internação adequado à patologia
+A01457,I01457,CONCORRENTE,2024-11-20,3,1121.82,Identificados procedimentos desnecessários
+A01459,I01459,CONCORRENTE,2024-12-06,1,398.25,Identificados procedimentos desnecessários
+A01466,I01466,CONCORRENTE,2024-11-17,2,1258.02,Identificados procedimentos desnecessários
+A01467,I01467,CONCORRENTE,2024-11-23,1,479.42,Tempo de internação adequado à patologia
+A01468,I01468,RETROSPECTIVA,2024-11-21,1,267.87,Identificados procedimentos desnecessários
+A01469,I01469,CONCORRENTE,2024-12-22,1,646.68,Necessária revisão de alguns procedimentos
+A01470,I01470,RETROSPECTIVA,2024-12-20,3,2588.74,Necessária revisão de alguns procedimentos
+A01474,I01474,CONCORRENTE,2024-12-02,1,1346.58,Identificados procedimentos desnecessários
+A01475,I01475,CONCORRENTE,2024-12-27,2,1136.18,Internação dentro dos parâmetros esperados
+A01477,I01477,CONCORRENTE,2024-11-21,0,0.0,Tempo de internação adequado à patologia
+A01478,I01478,RETROSPECTIVA,2024-12-12,0,0.0,Necessária revisão de alguns procedimentos
+A01479,I01479,RETROSPECTIVA,2024-11-21,3,2092.0,Internação dentro dos parâmetros esperados
+A01480,I01480,CONCORRENTE,2024-11-16,1,1413.18,Identificados procedimentos desnecessários
+A01481,I01481,CONCORRENTE,2024-12-17,0,0.0,Necessária revisão de alguns procedimentos
+A01484,I01484,RETROSPECTIVA,2024-12-29,0,0.0,Tempo de internação adequado à patologia
+A01487,I01487,CONCORRENTE,2025-01-01,2,2416.3300000000004,Necessária revisão de alguns procedimentos
+A01491,I01491,CONCORRENTE,2024-12-07,1,1409.67,Tempo de internação adequado à patologia
+A01493,I01493,CONCORRENTE,2024-12-09,1,95.95,Necessária revisão de alguns procedimentos
+A01495,I01495,RETROSPECTIVA,2024-11-23,0,0.0,Internação dentro dos parâmetros esperados
+A01496,I01496,CONCORRENTE,2024-11-18,1,261.68,Internação dentro dos parâmetros esperados
+A01497,I01497,RETROSPECTIVA,2024-11-19,1,1356.2,Necessária revisão de alguns procedimentos
+A01498,I01498,RETROSPECTIVA,2024-12-03,1,607.29,Tempo de internação adequado à patologia
+A01500,I01500,RETROSPECTIVA,2024-11-15,2,1400.43,Identificados procedimentos desnecessários
