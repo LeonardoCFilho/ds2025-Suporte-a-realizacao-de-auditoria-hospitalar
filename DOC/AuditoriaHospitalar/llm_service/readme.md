@@ -37,8 +37,8 @@ Cada paciente recebe:
 1. **Instalar dependências**
    ```bash
    pip install -r requirements.txt
- **Criar arquivo** .env: GEMINI_API_KEY=sua_chave_aqui.
- **Executar sistema**: python executar_batch.py
- **Execução rápida**: python execucao_teste.py
- **Reindexar base de conhecimento**: python reindexar_rag.py
+ - **Criar arquivo** .env: GEMINI_API_KEY=sua_chave_aqui.
+ - **Executar sistema**: python executar_batch.py
+ - **Execução rápida**: python execucao_teste.py
+ - **Reindexar base de conhecimento**: python reindexar_rag.py
    
