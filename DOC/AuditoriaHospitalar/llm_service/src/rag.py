@@ -1,7 +1,7 @@
 import numpy as np #type: ignore
 import pandas as pd  #type: ignore
 from typing import List, Dict, Any, Tuple
-from src.knowledge_base import MedicalKnowledgeBase as KnowledgeBase
+from .knowledge_base import MedicalKnowledgeBase as KnowledgeBase
 import json
 import logging
 from sentence_transformers import SentenceTransformer  #type: ignore
