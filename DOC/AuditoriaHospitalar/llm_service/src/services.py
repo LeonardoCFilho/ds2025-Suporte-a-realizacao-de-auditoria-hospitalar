@@ -1,9 +1,9 @@
 import os
 import logging
 from typing import Dict, List, Optional
-from src.rag import RAGSystem
-from src.prompts import PromptTemplates
-from src.gemini_integration import GeminiIntegration
+from .rag import RAGSystem
+from .prompts import PromptTemplates
+from .gemini_integration import GeminiIntegration
 
 logger = logging.getLogger(__name__)
 

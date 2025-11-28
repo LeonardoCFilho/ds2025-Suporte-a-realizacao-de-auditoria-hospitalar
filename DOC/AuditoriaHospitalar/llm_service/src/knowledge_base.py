@@ -4,7 +4,7 @@ Contém protocolos, regras e critérios médicos para TODAS as patologias
 """
 import json
 from typing import Dict, Any, List
-from src.data_knowledge_base import data_protocols, data_discharge_criteria, data_load_player_rules
+from .data_knowledge_base import data_protocols, data_discharge_criteria, data_load_player_rules
 
 class MedicalKnowledgeBase:
     """Base de conhecimento médico especializada em critérios de alta"""

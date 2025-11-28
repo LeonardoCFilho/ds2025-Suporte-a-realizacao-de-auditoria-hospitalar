@@ -5,8 +5,8 @@ import pandas as pd
 import json
 import logging
 from typing import List, Dict, Any
-from src.services import LLMService
-from src.knowledge_base import medical_kb
+from .services import LLMService
+from .knowledge_base import medical_kb
 
 logger = logging.getLogger(__name__)
 
